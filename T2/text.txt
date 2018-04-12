@@ -1,0 +1,1745 @@
+
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<script>
+
+  (adsbygoogle = window.adsbygoogle || []).push({
+
+    google_ad_client: "ca-pub-2308535366748796",
+
+    enable_page_level_ads: true
+
+  });
+
+</script>
+<link rel="icon" href="imagens/icons/ico/32x32_cp.ico" type="image/ico" sizes="32x32">
+<link rel="icon" href="imagens/icons/ico/32x32_cp.png" type="image/png" sizes="32x32">
+	
+
+  <meta charset="UTF-8">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,700,600,400' rel='stylesheet' type='text/css'>
+   
+		
+
+	
+		<script>
+	  var _comscore = _comscore || [];
+	  _comscore.push({ c1: "2", c2: "20966897" });
+	  (function() {
+		var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+		s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+		el.parentNode.insertBefore(s, el);
+	  })();
+	</script>
+	<noscript>
+	  <img src="http://b.scorecardresearch.com/p?c1=2&c2=20966897&cv=2.0&cj=1" />
+	</noscript>
+	
+		
+	
+	
+	 <link rel="stylesheet" href="includes/css/novo_correio/style.css?5aceba962e3dc"><script type="text/javascript" src="includes/js/jquery-1.7.min.js"></script>
+				<script type="text/javascript" src="includes/js/functions.js?5aceba962e44d"></script>
+				<script src="includes/js/novo_cp/controllers/widget-movies.js"></script>
+				<script src="includes/js/novo_cp/controllers/widget-classifieds.js"></script>	
+				
+				
+		    	
+	
+	<title>Correio Popular</title><link rel="canonical" href="http://correio.rac.com.br" />	
+	
+				
+		<script type="text/javascript">
+			
+			function criaCookie(chave, value) { 
+				var expira = new Date(); 
+				expira.setTime(expira.getTime() + 86400); 
+				//expira dentro de 24h
+				document.cookie = chave + '=' + value + ';expires=' + expira.toUTCString(); 
+			} 
+
+			function lerCookie(chave) { 
+				var ChaveValor = document.cookie.match('(^|;) ?' + chave + '=([^;]*)(;|$)'); 
+				return ChaveValor ? ChaveValor[2] : null; 
+			}
+			
+			function _GET(name)
+			{
+			  var url   = window.location.search.replace("?", "");
+			  var itens = url.split("&");
+
+			  for(n in itens)
+			  {
+				if( itens[n].match(name) )
+				{
+				  return decodeURIComponent(itens[n].replace(name+"=", ""));
+				}
+			  }
+			  return null;
+			}
+			
+			var mobile = _GET("mobile");
+
+			if (navigator.userAgent.match(/Android|BlackBerry|iPhone|iPod|Opera Mini|IEMobile/i) && (mobile != 1 && lerCookie("mob") != 1))
+			{
+				if(screen.width < 590 ){//alert("mobile");
+					parent.location="http://correio.rac.com.br/correio_mobile/mobile.php?chanel=0";
+				}
+				else{
+					//alerta tela grande, possivelmente tablet.
+					//alert("tablet");
+				}
+				
+			}
+			else if(mobile == 1)
+			{
+				//alert("desktop");
+				criaCookie("mob","1");
+			}
+			else
+			{
+				//alert("desktop"); 
+			}
+
+			
+
+		</script>
+	
+		
+
+		<script type='text/javascript'>
+		  (function() {
+			var useSSL = 'https:' == document.location.protocol;
+			var src = (useSSL ? 'https:' : 'http:') +
+				'//www.googletagservices.com/tag/js/gpt.js';
+			document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+		  })();
+		</script>
+
+		<script type='text/javascript'>
+		  googletag.cmd.push(function() {
+			googletag.defineOutOfPageSlot('/1003400/DHTML-CP-HOME-2016', 'div-gpt-ad-1458048505649-0').addService(googletag.pubads());
+			googletag.defineOutOfPageSlot('/1003400/DHTML-CP-HOME-2016-TAG', 'div-gpt-ad-1458048505649-1').addService(googletag.pubads());
+			googletag.defineSlot('/1003400/RIGHT-CP-HOME-2016', [300, 250], 'div-gpt-ad-1458048505649-2').addService(googletag.pubads());
+			googletag.defineSlot('/1003400/RIGHT1-CP-HOME-2016', [300, 250], 'div-gpt-ad-1458048505649-3').addService(googletag.pubads());
+			googletag.defineSlot('/1003400/RIGHT2-CP-HOME-2016', [300, 250], 'div-gpt-ad-1458048505649-4').addService(googletag.pubads());
+			googletag.defineOutOfPageSlot('/1003400/SIDETAB-CP-HOME-2016', 'div-gpt-ad-1458048505649-5').addService(googletag.pubads());
+			googletag.defineSlot('/1003400/TOP-CP-HOME-2016', [728, 90], 'div-gpt-ad-1458048505649-6').addService(googletag.pubads());
+			googletag.defineSlot('/1003400/TOP1-CP-HOME-2016', [728, 90], 'div-gpt-ad-1458048505649-7').addService(googletag.pubads());
+			googletag.defineSlot('/1003400/TOP2-CP-HOME-2016', [728, 90], 'div-gpt-ad-1458048505649-8').addService(googletag.pubads());
+			googletag.pubads().enableSingleRequest();
+			googletag.pubads().enableSyncRendering();
+			googletag.enableServices();
+		  });
+		</script>
+
+
+
+</head>
+<body>
+  <main class="main">
+    <header class="header">
+    
+	<style>
+.nav-correio-main-link{
+	font-weight:normal !important;
+	font-size:0.75rem !important;
+	text-transform:none !important;
+}	
+.txt-search-2{
+	font-size: 12px;
+    background: #002d51;
+    border: none;
+    color: #fff;
+    height: 35px;
+    padding: .5em 2em .5em 1em;
+    width:205px;
+    transition: all .5s ease;
+}
+.bt-search-2{
+	width:29px;
+	height:28px;
+	display: inline-block;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: none;
+    border: 0;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    transition: all .5s ease;
+}
+.nav-dropdown{
+	background:#002d51 !important;
+	border:none !important;
+}
+
+.seta-cima:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 8px solid #002d51;
+  position:absolute;margin:1px 30%;
+}
+.nav-correio-main-item:hover .seta-cima:before{
+	 border-bottom: 8px solid #fff;
+}
+::-webkit-input-placeholder {
+   color: #fff;
+ }
+.nav-correio-main-item{height:50px}
+</style>     
+	 <div class="nav-correio-container" style="background:#002d51;border:none;position: fixed;width: 100%;z-index: 100">
+		<div class="wrapper" style="padding-top:5px">
+           <nav class="nav-correio-main">
+              <ul class="nav-correio-main-list">
+				<li class="nav-correio-main-item" style="margin-top: -4px;">
+					<div class="search-container" style="margin-right:0">
+						<form id="cref_iframe" action="http://correio.rac.com.br/busca_nova.php" method="GET">  
+							<input type="search" class="txt-search-2" name="q" id="busca" placeholder="Digite o que você procura">
+							<button class="bt-search-2" name="sa" value="Search" style="background:url('http://correio.rac.com.br/imagens/novo_correio/novo_menu/busca.png')" ></button>
+						</form>
+					 </div>
+				</li>  
+				<li class="nav-correio-main-item">
+                  <a href="https://www.facebook.com/CPopular" target="_blank()" class="nav-correio-main-link" style="color:#fff"><img src="imagens/novo_correio/novo_menu/face.png"></a>
+				  <a href="http://www.twitter.com/correiopontocom" target="_blank()" class="nav-correio-main-link" style="color:#fff"><img src="imagens/novo_correio/novo_menu/twitter.png"></a>
+				  <a href="https://instagram.com/correiopopular/" target="_blank()" class="nav-correio-main-link" style="color:#fff"><img src="imagens/novo_correio/novo_menu/insta.png"></a>
+                </li>
+				<li class="nav-correio-main-item">
+                  <a href="index.php?id=/campinas_e_rmc" class="nav-correio-main-link" style="color:#fff" onmouseover="">RMC</a>
+				  <div class="seta-cima"></div>	
+                </li>
+                <li class="nav-correio-main-item" onmouseover="">
+                  <a href="index.php?id=/esportes" class="nav-correio-main-link" style="color:#fff">Esportes</a>
+				  <!--<span class="icon-angle-down"></span>-->
+				  <div class="seta-cima"></div>	
+                 <!-- <ul class="nav-dropdown">
+                    <li class="nav-dropdown-item">
+                      <a href="" class="nav-dropdown-link">Futebol*</a>
+                    </li>
+                    <li class="nav-dropdown-item">
+					   <a href=""  class="nav-dropdown-link">Vôlei*</a>
+                    </li>
+                    <li class="nav-dropdown-item">
+                      <a href="" class="nav-dropdown-link">Outros SSP*</a>
+                    </li>
+                    <li class="nav-dropdown-item">
+                      
+                    </li>
+					<li class="nav-dropdown-item">
+                      <a href="http://www.twitter.com/correiopontocom" class="nav-dropdown-link">Twitter</a>
+                    </li>
+					<li class="nav-dropdown-item">
+                      <a href="https://www.facebook.com/CPopular" class="nav-dropdown-link">Facebook</a>
+                    </li>
+					<li class="nav-dropdown-item">
+                      <a href="https://instagram.com/correiopopular/" class="nav-dropdown-link">instagram</a>
+                    </li>
+				  </ul>-->
+                </li>
+                <li class="nav-correio-main-item">
+                  <a href="index.php?id=/entretenimento" class="nav-correio-main-link" style="color:#fff">Variedades</a>
+				  <div class="seta-cima"></div>	
+				  <ul class="nav-dropdown">
+					<li class="nav-dropdown-item">
+					   <a href="http://correio.rac.com.br/corridadalua"  class="nav-dropdown-link">Corrida da Lua</a>
+                    </li>
+                    <li class="nav-dropdown-item">
+                      <a href="index.php?id=/cinema" class="nav-dropdown-link">Cinema</a>
+                    </li>
+                    <li class="nav-dropdown-item">
+					   <a href="http://correio.rac.com.br/index.php?id=/bau_da_rac/ha_50_anos/index.php"  class="nav-dropdown-link">Há 50 anos</a>
+                    </li>
+                    <li class="nav-dropdown-item">
+                      <a href="index.php?id=/societa" class="nav-dropdown-link">Società</a>
+                    </li>
+					<li class="nav-dropdown-item">
+                      <a href="index.php?id=/turismo" class="nav-dropdown-link">Turismo</a>
+                    </li>
+					<li class="nav-dropdown-item">
+                      <a href="index.php?id=/motor" class="nav-dropdown-link">Motor</a>
+                    </li>
+					<li class="nav-dropdown-item">
+                      <a href="index.php?id=/blogs" class="nav-dropdown-link">Blogs</a>
+                    </li>
+                    <li class="nav-dropdown-item">
+                      
+                    </li>
+					<li class="nav-dropdown-item">
+                      <a href="http://www.twitter.com/correiopontocom" class="nav-dropdown-link">Twitter</a>
+                    </li>
+					<li class="nav-dropdown-item">
+                      <a href="https://www.facebook.com/CPopular" class="nav-dropdown-link">Facebook</a>
+                    </li>
+					<li class="nav-dropdown-item">
+                      <a href="https://instagram.com/correiopopular/" class="nav-dropdown-link">instagram</a>
+                    </li>
+				  </ul>
+                </li>
+                <li class="nav-correio-main-item">
+                  <a href="index.php?id=/mundo" class="nav-correio-main-link" style="color:#fff">Mundo</a>
+				  <div class="seta-cima"></div>
+                </li>
+                <li class="nav-correio-main-item">
+                  <a href="index.php?id=/metropole" class="nav-correio-main-link" style="color:#fff">Jornal e Revistas</a>
+				  <div class="seta-cima"></div>
+				  <ul class="nav-dropdown">
+                    <li class="nav-dropdown-item">
+                      <a href="jornal_impresso" class="nav-dropdown-link">Correio Popular</a>
+                    </li>
+                    <li class="nav-dropdown-item">
+					   <a href="http://noticiaja.rac.com.br/"  class="nav-dropdown-link">Notícia Já</a>
+                    </li>
+                    <li class="nav-dropdown-item">
+                      <a href="http://www.gazetadepiracicaba.com.br/" class="nav-dropdown-link">Gazeta de Piracicaba</a>
+                    </li>
+					<li class="nav-dropdown-item">
+                      <a href="index.php?id=/revista_digital/" class="nav-dropdown-link">Revista Metrópole</a>
+                    </li>
+					<li class="nav-dropdown-item">
+                      <a href="http://correio.rac.com.br/revistas/vcpnews/" class="nav-dropdown-link">Revista VCP News</a>
+                    </li>
+					
+                    <li class="nav-dropdown-item">
+                      
+                    </li>
+					<li class="nav-dropdown-item">
+                      <a href="http://www.twitter.com/correiopontocom" class="nav-dropdown-link">Twitter</a>
+                    </li>
+					<li class="nav-dropdown-item">
+                      <a href="https://www.facebook.com/CPopular" class="nav-dropdown-link">Facebook</a>
+                    </li>
+					<li class="nav-dropdown-item">
+                      <a href="https://instagram.com/correiopopular/" class="nav-dropdown-link">instagram</a>
+                    </li>
+				  </ul>
+                </li>
+				<li class="nav-correio-main-item">
+                  <a href="" class="nav-correio-main-link" style="color:#fff">Serviços</a>
+				  <div class="seta-cima"></div> 
+				  <ul class="nav-dropdown">
+					<li class="nav-dropdown-item">
+                      <a href="http://classificadosdocorreio.com.br" target="_blank()" class="nav-dropdown-link">Classificados</a>
+                    </li>
+                    <li class="nav-dropdown-item">
+                      <a href="index.php?id=/transito" class="nav-dropdown-link">Trânsito</a>
+                    </li>
+                   <li class="nav-dropdown-item">
+					   <a href="http://correio.rac.com.br/expediente"  class="nav-dropdown-link">Expediente</a>
+                    </li>
+                    <li class="nav-dropdown-item">
+                    </li>
+					<li class="nav-dropdown-item">
+                      <a href="http://www.twitter.com/correiopontocom" class="nav-dropdown-link">Twitter</a>
+                    </li>
+					<li class="nav-dropdown-item">
+                      <a href="https://www.facebook.com/CPopular" class="nav-dropdown-link">Facebook</a>
+                    </li>
+					<li class="nav-dropdown-item">
+                      <a href="https://instagram.com/correiopopular/" class="nav-dropdown-link">instagram</a>
+                    </li>
+				  </ul>
+                </li>
+				<li class="nav-correio-main-item">
+                  <a href="" class="nav-correio-main-link" style="color:#fff">Opinião</a>
+				  <div class="seta-cima"></div>
+				  <ul class="nav-dropdown">
+                    <li class="nav-dropdown-item">
+                      <a href="index.php?id=/opiniao_segunda_feira/index.php" class="nav-dropdown-link">Marcelo Knobel</a>
+                    </li>
+                   <li class="nav-dropdown-item">
+					   <a href="index.php?id=/opiniao_terca_feira/index.php"  class="nav-dropdown-link">José Fernando Steinberg</a>
+                    </li>
+                    <li class="nav-dropdown-item">
+                      <a href="index.php?id=/opiniao_quarta_feira/index.php" class="nav-dropdown-link">Victor Pellegrini Mammana</a>
+                    </li>
+					 <li class="nav-dropdown-item">
+                      <a href="index.php?id=/opiniao_quinta_feira/index.php" class="nav-dropdown-link">Reinaldo Dias</a>
+                    </li>
+					 <li class="nav-dropdown-item">
+                      <a href="index.php?id=/opiniao_sexta_feira/index.php" class="nav-dropdown-link">Mary Jane Paiva</a>
+                    </li>
+				 </ul>
+                </li>
+				<li class="nav-correio-main-item">
+                  <a href="http://correio.rac.com.br/forum_rac/" class="nav-correio-main-link" style="color:#fff">Fórum RAC</a>
+				  <div class="seta-cima"></div>
+                </li>
+				<li class="nav-correio-main-item">
+                  <a href="http://correio.rac.com.br/jornal_impresso" class="nav-correio-main-link" style="color:#db9600">Versão Impressa</a>
+                </li>
+				<li class="nav-correio-main-item">
+                  <a href="http://www.assinecorreio.com.br/" class="nav-correio-main-link" style="color:#db9600">Assine</a>
+                </li>
+				</ul>
+            </nav>
+			</div>
+         </div> 
+	<div class="nav-correio-container" style="border:none;padding-top: 3.5em;">		  
+		<div class="wrapper">
+			<div style="width:25%;float:left;"> 
+				<a href="http://correio.rac.com.br/forum_rac"><img src="imagens/novo_correio/novo_menu/BTN_FORUM.png" style="padding: 2em 0em;"></a>
+			</div>
+			<div style="width:50%;float:left;">
+				<a href="http://correio.rac.com.br"><img src="imagens/novo_correio/novo_menu/logo-1.png" style="padding: 2em 1em 0;display:block;margin:auto"></a>
+				<div style="font-size:12px;color:#002d51;text-align:center;margin-bottom:10px">CONECTADO</div>
+				<div style="font-size:12px;color:#002d51;">
+					<div style="width:43%;float:left;text-align:right;">
+						<span style='text-transform:capitalize'>quarta-feira,</span> 11 de abril de 2018					</div>
+					<div style="width:22%;float:left;text-align:center">
+						<a href="http://correiopopular.html5v3.fivepress.com.br/"><img src="imagens/novo_correio/novo_menu/icon_jornal.png"/>Jornal do Dia</a>
+					</div>
+					<div style="width:35%;float:left;text-align:left" id="cotacao_bolsa_espaco"> 
+						 
+					</div>
+				</div>	
+			</div>
+			<div id="placar-top" style="width:25%;float:left;">
+				<a href="http://www.assinecorreio.com.br/"><img src="imagens/novo_correio/novo_menu/btn_site_2.jpg" style="padding: 2em 0.5em;float:right"></a> 
+			</div>
+			<div style="background: #002d51;height:5px;width:1155px;float:left;margin:-5px 0;"></div>
+		</div>	
+	</div>
+    </header>
+	
+
+
+
+
+ <div class="wrapper">
+	
+		<script type='text/javascript'>
+		  (function() {
+			var useSSL = 'https:' == document.location.protocol;
+			var src = (useSSL ? 'https:' : 'http:') +
+				'//www.googletagservices.com/tag/js/gpt.js';
+			document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+		  })();
+		</script>
+
+		<script type='text/javascript'>
+		  googletag.cmd.push(function() {
+			googletag.defineSlot('/1003400/TAGS-TESTE', [1, 1], 'div-gpt-ad-1458145568169-0').addService(googletag.pubads());
+			googletag.pubads().enableSingleRequest();
+			googletag.pubads().collapseEmptyDivs();
+			googletag.pubads().enableSyncRendering();
+			googletag.enableServices();
+		  });
+		</script>
+
+		<!-- /1003400/TAGS-TESTE -->
+		<div id='div-gpt-ad-1458145568169-0' style='height:1px; width:1px;'>
+		<script type='text/javascript'>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1458145568169-0'); });
+		</script>
+		</div>
+<script>console.log("DHTML POR TAG - v2");</script> 				   <div class="news-row primeira-dobra" style="height:auto !important; max-height: 700px;"> 	  	
+			<div style="position:relative;">
+		<fblock style="float:left;min-height:780px;width:1200px;" >
+			<div class="boxGrade" style="height:780px !important;">
+										<article class="news-box-picture" data-sesit="38111" data-publi="2002032" style="overflow: hidden; position: absolute; left: 873px; top: 312px; height: 297px; width: 281px;" data-sesit-width="281" data-sesit-height="146" data-sesit-margin-left="5" data-sesit-margin-top="5" data-sesit-margin-right="5" data-sesit-margin-botton="5" data-publi-rows="2" data-publi-cols="1" data-publi-x="4" data-publi-y="3" ><!-- aqui -->
+		<a href='/_conteudo/2018/04/mundo/543661-transporte-pode-levar-de-5-a-58-passageiros.html'><img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/281x290/1_uberfretado-8383704.jpg" alt="O empresário Edivaldo Pereira, proprietário da MGP. 'O grande trunfo do app vai ser tirar o intermediário'" border="0"></a>
+		<div class="text-wrapper">
+              <a href="/_conteudo/2018/04/mundo/543661-transporte-pode-levar-de-5-a-58-passageiros.html" class="news-label hardnews">'Uber fretado'</a>
+			  
+<a href="/_conteudo/2018/04/mundo/543661-transporte-pode-levar-de-5-a-58-passageiros.html" class="news-title">
+        Transporte pode <br>levar de 5 a 58 passageiros
+    </a>
+		</div>
+	</article>	
+									<article class="news-box-picture azulb" data-sesit="38111" data-publi="2000776" style="overflow: hidden; position: absolute; left: 873px; top: 0px; height: 297px; width: 281px;" data-sesit-width="281" data-sesit-height="146" data-sesit-margin-left="5" data-sesit-margin-top="5" data-sesit-margin-right="5" data-sesit-margin-botton="5" data-publi-rows="2" data-publi-cols="1" data-publi-x="4" data-publi-y="1" ><!-- aqui -->
+		<video class="Left" width="281" height="290" poster="http://correio.rac.com.br/_midias/mp4/2018/04/11/whatsapp_video_2018_04_11_at_18_36_32__online_video_cutter_com_-8384841.jpg" preload="none" controls muted onmouseover="this.play();this.muted = false;" >
+        <source src="http://correio.rac.com.br/_midias/mp4/2018/04/11/whatsapp_video_2018_04_11_at_18_36_32__online_video_cutter_com_-8384841.mp4" type="video/mp4">
+</video>
+		<div class="text-wrapper" style="margin-bottom:30px">
+              <a href="/_conteudo/2018/04/capa/543886-cursos-de-capacitacao-profissional.html" class="news-label hardnews">Para Deficientes</a>
+			  
+<a href="/_conteudo/2018/04/capa/543886-cursos-de-capacitacao-profissional.html" class="news-title">Cursos de capacitação profissional</a>
+		</div>
+	</article>	
+										<article class="news-box-picture" data-sesit="38111" data-publi="2000777" style="overflow: hidden; position: absolute; left: 582px; top: 312px; height: 297px; width: 281px;" data-sesit-width="281" data-sesit-height="146" data-sesit-margin-left="5" data-sesit-margin-top="5" data-sesit-margin-right="5" data-sesit-margin-botton="5" data-publi-rows="2" data-publi-cols="1" data-publi-x="3" data-publi-y="3" ><!-- aqui -->
+		<a href='/_conteudo/2018/04/mundo/543813-motoristas-de-apps-como-declarar-o-irpf.html'><img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/281x290/1_cabi-8384532.jpg" alt=" " border="0"></a>
+		<div class="text-wrapper">
+              <a href="/_conteudo/2018/04/mundo/543813-motoristas-de-apps-como-declarar-o-irpf.html" class="news-label hardnews">serviço</a>
+			  
+<a href="/_conteudo/2018/04/mundo/543813-motoristas-de-apps-como-declarar-o-irpf.html" class="news-title">
+        Motoristas de apps: <br>como declarar o IRPF
+    </a>
+		</div>
+	</article>	
+										<article class="news-box-picture" data-sesit="38111" data-publi="2010542" style="overflow: hidden; position: absolute; left: 582px; top: 0px; height: 297px; width: 281px;" data-sesit-width="281" data-sesit-height="146" data-sesit-margin-left="5" data-sesit-margin-top="5" data-sesit-margin-right="5" data-sesit-margin-botton="5" data-publi-rows="2" data-publi-cols="1" data-publi-x="3" data-publi-y="1" ><!-- aqui -->
+		<a href='/_conteudo/2018/04/mundo/543959-policiais-culpam-ratos-pelo-sumico-de-maconha.html'><img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/281x290/1_ratos1-8385209.jpg" alt="Os agentes alegaram que a droga sumida foi "comida por ratos"" border="0"></a>
+		<div class="text-wrapper">
+              <a href="/_conteudo/2018/04/mundo/543959-policiais-culpam-ratos-pelo-sumico-de-maconha.html" class="news-label hardnews">540 quilos</a>
+			  
+<a href="/_conteudo/2018/04/mundo/543959-policiais-culpam-ratos-pelo-sumico-de-maconha.html" class="news-title">
+        Policiais culpam ratos <br>pelo sumiço de maconha
+    </a>
+		</div>
+	</article>	
+									<article class="news-container news-box-picture 567x608" data-sesit="38111" data-publi="2013627" style="overflow: hidden; position: absolute; left: 0px; top: 0px; height: 599px; width: 567px;" data-sesit-width="281" data-sesit-height="146" data-sesit-margin-left="5" data-sesit-margin-top="5" data-sesit-margin-right="5" data-sesit-margin-botton="5" data-publi-rows="4" data-publi-cols="2" data-publi-x="1" data-publi-y="1" >
+<a href='/_conteudo/2018/04/mundo/543967-sistema-nico-de-seguranca-publica-e-aprovado.html'><img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/567x608/1_vai1-8385281.jpg" alt="A Susp tem como objetivo a integração de policiais federais, civis, militares e rodoviários federais, bombeiros, guardas municipais e agentes penitenciários" border="0"></a>
+          <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/mundo/543967-sistema-nico-de-seguranca-publica-e-aprovado.html" class="news-label hardnews">Câmara dos Deputados </a>
+
+            <a href="/_conteudo/2018/04/mundo/543967-sistema-nico-de-seguranca-publica-e-aprovado.html" class="news-title">Sistema Único de Segurança Pública é aprovado</a>
+          </div>
+ </article>	
+										
+							</div>
+		</fblock>
+	</div>
+		
+		
+    </div>
+
+
+					<div class="publicity-box-969" style="margin-top:-75px;margin-left: 220px;">
+						<span class="publicity-label" style="width:728px;text-align:left;">Publicidade</span>
+
+		
+		<!-- /1003400/TOP-CP-HOME-2016 -->
+		<div id='div-gpt-ad-1458048505649-6' style='height:90px; width:728px;'>
+		<script type='text/javascript'>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1458048505649-6'); });
+		</script>
+		</div>
+
+
+
+</div>
+ 
+
+    <div class="news-row">
+        <div class="header-row">
+          <h2 class="news-row-title title-hardnews">Notícias</h2>        
+        </div>
+										<!--<div class="news-row" style="overflow:visible;height:299px;">-->
+					<div class="news-row">
+					<!--38204--> 
+<article class="news-box-picture row-2 col-2">
+            <a href='/_conteudo/2018/04/mundo/543962-preco-da-gasolina-sobe-0-8-e-diesel-avanca-2.html'>
+
+<img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/574x590/1_gasolina-8385244.jpg"  " border="0">
+</a>
+
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/mundo/543962-preco-da-gasolina-sobe-0-8-e-diesel-avanca-2.html" class="news-label hardnews">Petrobras</a>
+              <a href="/_conteudo/2018/04/mundo/543962-preco-da-gasolina-sobe-0-8-e-diesel-avanca-2.html" class="news-title">
+        
+        Preço da gasolina sobe 0,8% e diesel avança 2%
+    
+    </a>
+            </div>
+          </article>
+<!--38113--><article class="news-box-picture">
+<a href="/_conteudo/2018/04/mundo/543685-policia-apreende-metralhadora-de-guerra-de-300-mil.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/281x290/1_metralhadora_jpeg-8384060.jpg" alt=Segundo informações da polícia, trata-se de um fuzil de combate aéreo com alto poder de destruição" border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/mundo/543685-policia-apreende-metralhadora-de-guerra-de-300-mil.html" class="news-label hardnews">em Ribeirão Preto</a>
+              <a href="/_conteudo/2018/04/mundo/543685-policia-apreende-metralhadora-de-guerra-de-300-mil.html" class="news-title">Polícia apreende metralhadora de guerra</a>
+            </div>
+</article>
+						<div id="placar" class="news-box-text-container"></div>
+						<!--Enquete e unicamp-->
+						<div class="news-box-text-container">
+							<!--38582--><div class="enquete" style="background:#002d51">
+	<div class="topico_lateral_vermelho" style=" color: #ffbc41;font-size: 20px;font-weight: normal;">Enquete</div>
+	<div>
+		<div style="padding:5px 15px;color:#fff;font-size:15px">
+			Você concorda com o uso de identificação visível nos veículos que praticam transporte por aplicativos?
+                </div>
+                <div>
+			<form style="/*margin-top:10px*/" action="index.php?id=/ProxyAjax.apiFiveedit.responderEnquete.php" method="post" id="enquete">
+<input type="hidden" name="cd_matia" value="543856'  />
+<input type="hidden" name="ds_poral_url" value="cpscms.rac.com.br/sites/correio" />
+
+
+				<label style="float:left;color:#fff;margin-left:10px"><input type="radio" class="resen resen_4083" value="4083" name="cd_resen[]" />&nbsp;SIM <span class="resenq" style="display:none;"> - 62.86% </span></label>
+
+				<label style="float:left;color:#fff;margin-left:10px"><input type="radio" class="resen resen_4084" value="4084" name="cd_resen[]" />&nbsp;NÃO <span class="resenq" style="display:none;"> - 37.14% </span></label>
+
+
+				
+			</form>
+			<div style=" position:absolute; bottom:0; font-size:13px; right:5px;"><a href="index.php?id=/ProxyAjax.apiFiveedit.resultadoEnquete.php-" style="color:#2094B9;" class="mresenq">
+                           <a href="javascript:" class="mresenq" style="color:#fff"> RESULTADO</span></a></div>
+
+		</div>
+	</div>
+</div><link rel="stylesheet" href="includes/css/novo_correio/style.css?5aceba96ece2e">
+
+<article class="news-box-text" style="float:left;">
+	<div style="float:right"><img src="imagens/novo_correio/unicamp.png" alt="Jornal da Unicamp" style="height:22px;margin-top: 5px;"></div>
+	<a href="http://www.unicamp.br/unicamp/ju/noticias/2018/04/11/mulheres-no-ensino-superior-ainda-sao-minoria-apenas-na-docencia" target="_blank()" class="news-label sports">
+        Atualidades
+      </a>
+    <a href="http://www.unicamp.br/unicamp/ju/noticias/2018/04/11/mulheres-no-ensino-superior-ainda-sao-minoria-apenas-na-docencia" target="_blank()" class="news-title" style="font-size:1em;margin:10px 0 0 0;line-height: 20px;">Mulheres no ensino superior ainda são minoria apenas na docência</a>
+	<a href="http://www.unicamp.br/unicamp/ju/noticias/2018/04/11/mulheres-no-ensino-superior-ainda-sao-minoria-apenas-na-docencia" target="_blank()" class="news-description">Participação feminina entre professores cresceu apenas 1% em uma década</a>
+</article>
+							  </div>
+						<!--38205--><article class="news-box-picture">
+<a href="/_conteudo/2018/04/mundo/543682-queda-de-barreira-interdita-mogi-bertioga.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/281x290/1_bertioga_jpeg-8383997.jpg" alt=Queda de barreira interdita Mogi-Bertioga" border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/mundo/543682-queda-de-barreira-interdita-mogi-bertioga.html" class="news-label hardnews">quarta vez no ano</a>
+              <a href="/_conteudo/2018/04/mundo/543682-queda-de-barreira-interdita-mogi-bertioga.html" class="news-title">
+        Queda de barreira <br>interdita Mogi-Bertioga
+    </a>
+            </div>
+</article>
+	
+		
+										<div class="publicity-box-300" style="margin-left: -2px;width:292px;">
+						<span class="publicity-label">Publicidade</span>
+
+						
+		<!-- /1003400/RIGHT-CP-HOME-2016 -->
+		<div id='div-gpt-ad-1458048505649-2' style='height:250px; width:300px;'>
+		<script type='text/javascript'>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1458048505649-2'); });
+		</script>
+		</div>
+
+
+
+					</div>
+					
+       		
+					  </div>
+
+		  <div class="news-row">
+		<!--38116--><article class="news-box-picture">
+<a href="/_conteudo/2018/04/campinas_e_rmc/543517-compartilhamento-de-cameras-reforca-seguranca.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/04/10/281x290/1_vinhedomonitora-8382915.jpg" alt=Sistema de monitoramento possibiliza o compartilhamento de câmeras particulares com a população" border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/campinas_e_rmc/543517-compartilhamento-de-cameras-reforca-seguranca.html" class="news-label hardnews">Vinhedo </a>
+              <a href="/_conteudo/2018/04/campinas_e_rmc/543517-compartilhamento-de-cameras-reforca-seguranca.html" class="news-title">Compartilhamento de câmeras reforça segurança</a>
+            </div>
+</article>
+<article class="news-box-picture">
+<a href="/_conteudo/2018/04/mundo/543678-justica-bloqueia-quase-r-30-milhoes-de-lula.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/281x290/1_lula2-8383752.jpg" alt=PT avalia como funcionar sem a presença de Lula" border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/mundo/543678-justica-bloqueia-quase-r-30-milhoes-de-lula.html" class="news-label hardnews">Instituto e L.I.L S.</a>
+              <a href="/_conteudo/2018/04/mundo/543678-justica-bloqueia-quase-r-30-milhoes-de-lula.html" class="news-title">
+        Justiça bloqueia quase <br>R$ 30 milhões de Lula
+    </a>
+            </div>
+</article>
+<article class="news-box-picture">
+<a href="/_conteudo/2018/04/mundo/543676-temer-participa-de-jantar-do-pr.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/281x290/1_temer-8383817.jpg" alt=Temer participa de jantar do PR" border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/mundo/543676-temer-participa-de-jantar-do-pr.html" class="news-label hardnews">Fora da agenda oficial</a>
+              <a href="/_conteudo/2018/04/mundo/543676-temer-participa-de-jantar-do-pr.html" class="news-title">
+        Temer participa <br>de jantar do PR
+    </a>
+            </div>
+</article>
+  
+		<!--Enquete e Widget do tempo-->
+        
+			<!--38118--><article class="news-box-picture no-margin"><!-- imagem erro 1 -->
+<a href="/_conteudo/2018/04/charges/543955-confira-a-charge-do-veronezi-desta-quinta-feira.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/281x290/1_charge1204-8385173.jpg" alt=Charge de quinta-feira" border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/charges/543955-confira-a-charge-do-veronezi-desta-quinta-feira.html" class="news-label hardnews">humor</a>
+              <a href="/_conteudo/2018/04/charges/543955-confira-a-charge-do-veronezi-desta-quinta-feira.html" class="news-title">Confira a charge do Veronezi desta quinta-feira</a>
+            </div>
+</article>
+		 
+        </div>
+		<div class="news-row">
+			<!--38119--><article class="news-box-picture">
+<a href="/_conteudo/2018/04/campinas_e_rmc/543660-policia-faz-operacao-contra-roubo-de-carga.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/281x290/1_operacao-8384025.jpg" alt=Polícia faz operação contra roubo de carga na região." border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/campinas_e_rmc/543660-policia-faz-operacao-contra-roubo-de-carga.html" class="news-label hardnews">Operação Vidocq</a>
+              <a href="/_conteudo/2018/04/campinas_e_rmc/543660-policia-faz-operacao-contra-roubo-de-carga.html" class="news-title">
+        Polícia faz operação <br>contra roubo de carga
+    </a>
+            </div>
+</article>
+<article class="news-box-picture">
+<a href="/_conteudo/2018/04/mundo/543674-pt-avalia-como-funcionar-sem-a-presenca-de-lula.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/281x290/1_pf-8383956.jpg" alt=Justiça bloqueia quase R$ 30 milhões de Lula" border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/mundo/543674-pt-avalia-como-funcionar-sem-a-presenca-de-lula.html" class="news-label hardnews">prisão</a>
+              <a href="/_conteudo/2018/04/mundo/543674-pt-avalia-como-funcionar-sem-a-presenca-de-lula.html" class="news-title">PT avalia como funcionar sem a presença de Lula</a>
+            </div>
+</article>
+<article class="news-box-picture">
+<a href="/_conteudo/2018/04/mundo/543712-delegados-nao-querem-lula-na-sede-da-pf.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/281x290/1_sedepf-8384116.jpg" alt=Delegados não querem Lula na sede da PF" border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/mundo/543712-delegados-nao-querem-lula-na-sede-da-pf.html" class="news-label hardnews">reclamação</a>
+              <a href="/_conteudo/2018/04/mundo/543712-delegados-nao-querem-lula-na-sede-da-pf.html" class="news-title">Delegados não querem Lula na sede da PF</a>
+            </div>
+</article>
+<article class="news-box-picture">
+<a href="/_conteudo/2018/04/campinas_e_rmc/543840-comecam-inscricoes-de-capacitacao-profissional.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/281x290/1_fachada_da_dell-8384592.jpg" alt=Fachada da Dell" border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/campinas_e_rmc/543840-comecam-inscricoes-de-capacitacao-profissional.html" class="news-label hardnews">para deficientes</a>
+              <a href="/_conteudo/2018/04/campinas_e_rmc/543840-comecam-inscricoes-de-capacitacao-profissional.html" class="news-title">Começam inscrições de capacitação profissional</a>
+            </div>
+</article>
+		</div>
+	</div>
+
+	<div class="publicity-box-969" style="text-align:center;margin-left: 220px;">
+		<span class="publicity-label" style="width:728px;text-align:left;margin-left: -208px;">Publicidade</span>
+		
+
+		
+		<!-- /1003400/TOP1-CP-HOME-2016 -->
+		<div id='div-gpt-ad-1458048505649-7' style='height:90px; width:728px;'>
+		<script type='text/javascript'>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1458048505649-7'); });
+		</script>
+		</div>
+
+
+
+	
+			
+	</div>
+
+
+
+	<div class="news-row">
+		<div class="header-row">
+			<a href="http://correio.rac.com.br/index.php?id=/esportes"><h2 class="news-row-title title-sports">Esportes</h2></a>         
+		</div>
+        
+		<div>
+				<!--38122--> 
+<article class="news-box-picture row-2 col-2">
+            <a href='/_conteudo/2018/04/esportes/543870-com-penalti-polemico-no-fim-real-elimina-juventus.html'>
+
+<img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/574x590/1_cr7-8384774.jpg" Cristiano Ronaldo após gol de pênalti no fim da partida" border="0">
+</a>
+
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/esportes/543870-com-penalti-polemico-no-fim-real-elimina-juventus.html" class="news-label sports">Liga dos Campeões</a>
+              <a href="/_conteudo/2018/04/esportes/543870-com-penalti-polemico-no-fim-real-elimina-juventus.html" class="news-title">Com pênalti polêmico no fim, Real elimina Juventus</a>
+            </div>
+          </article>
+<!--38123--><article class="news-box-picture">
+<a href="/_conteudo/2018/04/esportes/543550-bugre-tera-desfalque-na-estreia-da-serie-b.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/04/10/281x290/1_guarani1104-8383221.jpg" alt= " border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/esportes/543550-bugre-tera-desfalque-na-estreia-da-serie-b.html" class="news-label hardnews">contra o Fortaleza</a>
+              <a href="/_conteudo/2018/04/esportes/543550-bugre-tera-desfalque-na-estreia-da-serie-b.html" class="news-title">
+        Bugre terá desfalque <br>em estreia na Série B
+    </a>
+            </div>
+</article>
+<!--38206--><article class="news-box-picture">
+<a href="http://correio.rac.com.br/ao_vivo/noticia.php?id=218"><img src="http://correio.rac.com.br/_midias/jpg/2016/03/13/281x290/1_pontepretanos_1-6611446.jpg" alt= " border="0">
+            <div class="text-wrapper">
+              <a href="http://correio.rac.com.br/ao_vivo/noticia.php?id=218" class="news-label hardnews">AO VIVO</a>
+              <a href="http://correio.rac.com.br/ao_vivo/noticia.php?id=218" class="news-title">Ponte Preta 3 x 0 Náutico</a>
+            </div>
+</article>
+<!--38207--><article class="news-box-picture">
+<a href="/_conteudo/2018/04/esportes/543866-sem-sustos-bayern-elimina-sevilla-e-quebra-tabu.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/281x290/1_lc2-8384724.jpg" alt=Robben comemora classificação do Bayern" border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/esportes/543866-sem-sustos-bayern-elimina-sevilla-e-quebra-tabu.html" class="news-label hardnews">Liga dos Campeões 2</a>
+              <a href="/_conteudo/2018/04/esportes/543866-sem-sustos-bayern-elimina-sevilla-e-quebra-tabu.html" class="news-title">Sem sustos, Bayern elimina Sevilla e quebra tabu</a>
+            </div>
+</article>
+<!--38208--><article class="news-box-picture">
+<a href="/_conteudo/2018/04/esportes/543841-aguirre-diz-que-sao-paulo-encontrou-um-caminho.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/281x290/1_guigui_-8384629.jpg" alt=Antes da Sul-Americana, Aguirre diz que São Paulo encontrou um caminho" border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/esportes/543841-aguirre-diz-que-sao-paulo-encontrou-um-caminho.html" class="news-label hardnews">Sul-Americana</a>
+              <a href="/_conteudo/2018/04/esportes/543841-aguirre-diz-que-sao-paulo-encontrou-um-caminho.html" class="news-title">Aguirre diz que São Paulo encontrou um caminho</a>
+            </div>
+</article>
+ 
+			<div class="news-row">
+					<!--38117--><article class="news-box-picture">
+<a href="/_conteudo/2018/04/esportes/543785-fpf-diz-que-video-nao-prova-interferencia-externa.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/281x290/1_pal-8384271.jpg" alt=FPF diz que vídeo do Palmeiras não prova interferência externa sobre árbitro" border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/esportes/543785-fpf-diz-que-video-nao-prova-interferencia-externa.html" class="news-label hardnews">Palmeiras</a>
+              <a href="/_conteudo/2018/04/esportes/543785-fpf-diz-que-video-nao-prova-interferencia-externa.html" class="news-title">
+        FPF diz que vídeo não <br>prova interferência externa
+    </a>
+            </div>
+</article>
+<article class="news-box-picture">
+<a href="/_conteudo/2018/04/esportes/543790-atletas-falam-em-mimimi-palmeirense-sobre-polemica.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/281x290/1_sheik-8384335.jpg" alt=Atletas do Corinthians falam em 'mimimi' palmeirense na polêmica sobre o dérbi" border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/esportes/543790-atletas-falam-em-mimimi-palmeirense-sobre-polemica.html" class="news-label hardnews">Corinthians</a>
+              <a href="/_conteudo/2018/04/esportes/543790-atletas-falam-em-mimimi-palmeirense-sobre-polemica.html" class="news-title">Atletas falam em 'mimimi' palmeirense após dérbi</a>
+            </div>
+</article>
+<article class="news-box-picture">
+<a href="/_conteudo/2018/04/esportes/543784-arthur-gomes-mira-titularidade-no-santos.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/281x290/1_ar-8384218.jpg" alt=Arthur Gomes não quer ser o 12º jogador do Santos" border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/esportes/543784-arthur-gomes-mira-titularidade-no-santos.html" class="news-label hardnews">Promessa</a>
+              <a href="/_conteudo/2018/04/esportes/543784-arthur-gomes-mira-titularidade-no-santos.html" class="news-title">Arthur Gomes mira titularidade no Santos</a>
+            </div>
+</article>
+<article class="news-box-picture">
+<a href="/_conteudo/2018/04/esportes/543783-philadelphia-76ers-vence-a-15-seguida.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/281x290/1_nba-8384181.jpg" alt=Philadelphia 76ers vence a 15ª seguida e se mantém na 3ª posição no Leste" border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/esportes/543783-philadelphia-76ers-vence-a-15-seguida.html" class="news-label hardnews">NBA</a>
+              <a href="/_conteudo/2018/04/esportes/543783-philadelphia-76ers-vence-a-15-seguida.html" class="news-title">
+        Philadelphia 76ers <br>vence a 15ª seguida
+    </a>
+            </div>
+</article>
+ 
+			</div>	
+		</div>
+
+		<div class="news-row">
+			<div class="header-row">
+			  <a href="http://correio.rac.com.br/index.php?id=/entretenimento"><h2 class="news-row-title title-culture">Entretenimento</h2></a>          
+			</div>
+        	<div class="news-row">
+				<!--38126--> 
+          <article class="news-container news-box-picture col-2" style="margin-right: 0.25%;">
+<a href='/_conteudo/2018/04/entretenimento/543911-festival-internacional-de-arte-de-sp-comeca-quarta.html'><img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/574x291/1_bienal1-8384886.jpg" Assim como no ano passado, a feira terá visitas guiadas." border="0" ></a>
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/entretenimento/543911-festival-internacional-de-arte-de-sp-comeca-quarta.html" class="news-label culture">no Pavilhão da Bienal</a>
+              <a href="/_conteudo/2018/04/entretenimento/543911-festival-internacional-de-arte-de-sp-comeca-quarta.html" class="news-title super">
+        Festival Internacional <br>de Arte de SP começa quarta
+    </a>
+            </div>
+          </article>
+ 			
+
+
+				<!--38127--><article class="news-box-picture">
+<a href="/_conteudo/2018/04/entretenimento/543806-workshops-comecam-neste-sabado-para-fotografos.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/281x290/1_fotos-8384433.jpg" alt=Teste de montagem de paletes para a exposição do projeto Foto Ceasa" border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/entretenimento/543806-workshops-comecam-neste-sabado-para-fotografos.html" class="news-label culture">Foto Ceasa</a>
+              <a href="/_conteudo/2018/04/entretenimento/543806-workshops-comecam-neste-sabado-para-fotografos.html" class="news-title">Workshops começam neste sábado para fotógrafos</a>
+            </div>
+</article>
+ 			  
+			  
+
+
+			  <div class="news-box-text-container" style="margin-left:-5px;width:300px;">
+			  				
+			  <!--<div class="publicity-box-300">-->
+				<span class="publicity-label">Publicidade</span>
+				
+						
+		<!-- /1003400/RIGHT1-CP-HOME-2016 -->
+		<div id='div-gpt-ad-1458048505649-3' style='height:250px; width:300px;'>
+		<script type='text/javascript'>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1458048505649-3'); });
+		</script>
+		</div>
+
+
+
+
+			  </div>
+
+			</div>
+			<div class="news-row">
+				<!--39735--><article class="news-box-picture">
+<a href="/_conteudo/2018/04/entretenimento/543807-mariah-carey-revela-ter-transtorno-bipolar.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/281x290/1_mc-8384459.jpg" alt= " border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/entretenimento/543807-mariah-carey-revela-ter-transtorno-bipolar.html" class="news-label culture">Cantora</a>
+              <a href="/_conteudo/2018/04/entretenimento/543807-mariah-carey-revela-ter-transtorno-bipolar.html" class="news-title">
+        Mariah Carey revela <br>ter transtorno bipolar
+    </a>
+            </div>
+</article>
+<article class="news-box-picture">
+<a href="/_conteudo/2018/04/entretenimento/543800-sabado-com-samba-de-raiz-no-dom-brejas.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/281x290/1_mila_e_vitor_por_ana_dourado_135__3_-8384410.jpg" alt=Sábado com Samba de Raiz no Dom Brejas em Campinas" border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/entretenimento/543800-sabado-com-samba-de-raiz-no-dom-brejas.html" class="news-label culture">em Campinas</a>
+              <a href="/_conteudo/2018/04/entretenimento/543800-sabado-com-samba-de-raiz-no-dom-brejas.html" class="news-title">
+        
+        Sábado com Samba <br>de Raiz no Dom Brejas
+    
+    </a>
+            </div>
+</article>
+<article class="news-box-picture">
+<a href="/_conteudo/2018/04/entretenimento/543809-ceelo-green-cancela-turne-no-brasil.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/281x290/1_clg-8384495.jpg" alt= " border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/entretenimento/543809-ceelo-green-cancela-turne-no-brasil.html" class="news-label culture">logística complicada</a>
+              <a href="/_conteudo/2018/04/entretenimento/543809-ceelo-green-cancela-turne-no-brasil.html" class="news-title">
+        CeeLo Green cancela <br>turnê no Brasil
+    </a>
+            </div>
+</article>
+<article class="news-box-picture">
+<a href="/_conteudo/2018/04/entretenimento/543820-evento-orienta-casais-sobre-dificuldades.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/281x290/1_gra-8384557.jpg" alt= " border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/entretenimento/543820-evento-orienta-casais-sobre-dificuldades.html" class="news-label culture">gravidez</a>
+              <a href="/_conteudo/2018/04/entretenimento/543820-evento-orienta-casais-sobre-dificuldades.html" class="news-title">
+        Evento orienta casais <br>sobre dificuldades
+    </a>
+            </div>
+</article>
+ 		
+			</div>
+		</div>
+	  
+	  
+	<div class="news-row">
+
+			<div class="tv-correio-header">
+			  <a href="http://correio.rac.com.br/index.php?id=/tv_correio"><h2 class="title-tv">TV Correio</h2></a>
+			  <a href="http://correio.rac.com.br/index.php?id=/tv_correio" class="tv-mais-btn"><i class="tv-icon-mais"></i> Ver mais vídeos</a>
+			</div>
+
+		<div class="tv-content">
+				<!--38216-->  
+         <article class="tv-col-2">
+            <a href="/_conteudo/2018/04/tv_correio/543845-elefantes-jogam-agua-para-celebrar-o-ano-novo.html">
+              <img src="http://correio.rac.com.br/_midias/jpg/2018/04/11/589x331/1_elefantes-8384667.jpg" O festival Songkran atrai foliões para uma batalha de água em todo o país" border="0" width="589" height="331">
+              <div class="text-wrapper">
+                <span class="tv-label">celebração de ano novo</span>
+                <span class="tv-data"></span>
+                <span class="tv-description super">
+                Elefantes jogam água <br>em tailandeses e turistas     
+    </span>
+              </div>
+              <svg class="icon-play" viewBox="0 0 80 80" xml:space="preserve">
+                <g id="XMLID_2_">
+                  <path id="XMLID_3_" d="
+                    M74.2,20.2c3.5,6.1,5.3,12.7,5.3,19.8c0,7.2-1.8,13.8-5.3,19.8c-3.5,6-8.3,10.8-14.4,14.4
+                    c-6,3.5-12.7,5.3-19.8,5.3c-7.2,0-13.8-1.8-19.8-5.3c-6-3.5-10.8-8.3-14.4-14.4c-3.5-6-5.3-12.7-5.3-19.8c0-7.2,1.8-13.8,5.3-19.8
+                    c3.5-6,8.3-10.8,14.4-14.4c6-3.5,12.7-5.3,19.8-5.3c7.2,0,13.8,1.8,19.8,5.3C65.9,9.3,70.7,14.1,74.2,20.2z M64.2,54
+                    c2.5-4.3,3.8-9,3.8-14c0-5.1-1.3-9.8-3.8-14c-2.5-4.3-5.9-7.7-10.2-10.2c-4.3-2.5-9-3.8-14-3.8c-5.1,0-9.8,1.3-14,3.8
+                    c-4.3,2.5-7.7,5.9-10.2,10.2c-2.5,4.3-3.8,9-3.8,14c0,5.1,1.3,9.8,3.8,14c2.5,4.3,5.9,7.7,10.2,10.2c4.3,2.5,9,3.8,14,3.8
+                    c5.1,0,9.8-1.3,14-3.8C58.3,61.7,61.7,58.3,64.2,54z M61.4,40c0,1.3-0.5,2.2-1.6,2.8l-28,16.5c-0.5,0.3-1.1,0.5-1.6,0.5
+                    c-0.5,0-1.1-0.1-1.6-0.4c-1.1-0.7-1.6-1.6-1.6-2.9V23.5c0-1.3,0.5-2.2,1.6-2.9c1.1-0.6,2.2-0.6,3.3,0.1l28,16.5
+                    C60.8,37.8,61.4,38.7,61.4,40z"/>
+                </g>
+              </svg>
+            </a>
+          </article>
+			 		  
+			  <div class="">
+					
+				<!--38217-->  
+            <div class="tv-col-1">
+              <a href="/_conteudo/2018/04/tv_correio/543542-mae-precisa-de-ajuda-apos-parto-e-um-mes-em-coma.html">
+                <img src="http://correio.rac.com.br/_midias/jpg/2018/04/10/206x155/1_mae-8383185.jpg"  " border="0" >
+                <span class="tv-label">Campinas</span>
+                <span class="tv-data"></span>
+                <span class="tv-description medium">
+        Mãe precisa de ajuda após parto e um mês em coma
+    </span>
+                <svg class="icon-play" viewBox="0 0 80 80" xml:space="preserve">
+                  <g id="XMLID_2_">
+                    <path id="XMLID_3_" d="
+                      M74.2,20.2c3.5,6.1,5.3,12.7,5.3,19.8c0,7.2-1.8,13.8-5.3,19.8c-3.5,6-8.3,10.8-14.4,14.4
+                      c-6,3.5-12.7,5.3-19.8,5.3c-7.2,0-13.8-1.8-19.8-5.3c-6-3.5-10.8-8.3-14.4-14.4c-3.5-6-5.3-12.7-5.3-19.8c0-7.2,1.8-13.8,5.3-19.8
+                      c3.5-6,8.3-10.8,14.4-14.4c6-3.5,12.7-5.3,19.8-5.3c7.2,0,13.8,1.8,19.8,5.3C65.9,9.3,70.7,14.1,74.2,20.2z M64.2,54
+                      c2.5-4.3,3.8-9,3.8-14c0-5.1-1.3-9.8-3.8-14c-2.5-4.3-5.9-7.7-10.2-10.2c-4.3-2.5-9-3.8-14-3.8c-5.1,0-9.8,1.3-14,3.8
+                      c-4.3,2.5-7.7,5.9-10.2,10.2c-2.5,4.3-3.8,9-3.8,14c0,5.1,1.3,9.8,3.8,14c2.5,4.3,5.9,7.7,10.2,10.2c4.3,2.5,9,3.8,14,3.8
+                      c5.1,0,9.8-1.3,14-3.8C58.3,61.7,61.7,58.3,64.2,54z M61.4,40c0,1.3-0.5,2.2-1.6,2.8l-28,16.5c-0.5,0.3-1.1,0.5-1.6,0.5
+                      c-0.5,0-1.1-0.1-1.6-0.4c-1.1-0.7-1.6-1.6-1.6-2.9V23.5c0-1.3,0.5-2.2,1.6-2.9c1.1-0.6,2.2-0.6,3.3,0.1l28,16.5
+                      C60.8,37.8,61.4,38.7,61.4,40z"/>
+                  </g>
+                </svg>
+              </a>
+            </div>
+  
+            <div class="tv-col-1">
+              <a href="/_conteudo/2018/04/tv_correio/543354-baleia-encalhada-morre-na-argentina.html">
+                <img src="http://correio.rac.com.br/_midias/jpg/2018/04/10/206x155/1_jubarte-8382061.jpg" A baleia ficou presa desde sábado e os socorristas estavam trabalhando para devolvê-la ao mar" border="0" >
+                <span class="tv-label">Mar del Plata</span>
+                <span class="tv-data"></span>
+                <span class="tv-description medium">Baleia jubarte encalhada morre na Argentina</span>
+                <svg class="icon-play" viewBox="0 0 80 80" xml:space="preserve">
+                  <g id="XMLID_2_">
+                    <path id="XMLID_3_" d="
+                      M74.2,20.2c3.5,6.1,5.3,12.7,5.3,19.8c0,7.2-1.8,13.8-5.3,19.8c-3.5,6-8.3,10.8-14.4,14.4
+                      c-6,3.5-12.7,5.3-19.8,5.3c-7.2,0-13.8-1.8-19.8-5.3c-6-3.5-10.8-8.3-14.4-14.4c-3.5-6-5.3-12.7-5.3-19.8c0-7.2,1.8-13.8,5.3-19.8
+                      c3.5-6,8.3-10.8,14.4-14.4c6-3.5,12.7-5.3,19.8-5.3c7.2,0,13.8,1.8,19.8,5.3C65.9,9.3,70.7,14.1,74.2,20.2z M64.2,54
+                      c2.5-4.3,3.8-9,3.8-14c0-5.1-1.3-9.8-3.8-14c-2.5-4.3-5.9-7.7-10.2-10.2c-4.3-2.5-9-3.8-14-3.8c-5.1,0-9.8,1.3-14,3.8
+                      c-4.3,2.5-7.7,5.9-10.2,10.2c-2.5,4.3-3.8,9-3.8,14c0,5.1,1.3,9.8,3.8,14c2.5,4.3,5.9,7.7,10.2,10.2c4.3,2.5,9,3.8,14,3.8
+                      c5.1,0,9.8-1.3,14-3.8C58.3,61.7,61.7,58.3,64.2,54z M61.4,40c0,1.3-0.5,2.2-1.6,2.8l-28,16.5c-0.5,0.3-1.1,0.5-1.6,0.5
+                      c-0.5,0-1.1-0.1-1.6-0.4c-1.1-0.7-1.6-1.6-1.6-2.9V23.5c0-1.3,0.5-2.2,1.6-2.9c1.1-0.6,2.2-0.6,3.3,0.1l28,16.5
+                      C60.8,37.8,61.4,38.7,61.4,40z"/>
+                  </g>
+                </svg>
+              </a>
+            </div>
+			   
+			  </div>
+			  <div class="news-row" style="padding-top:2em">
+			<!--38217-->  
+            <div class="tv-col-1" style="width:25%">
+              <a href="/_conteudo/2018/04/tv_correio/542961-viagem-de-navio-com-50-mil-ovelhas-e-interrompida.html">
+                <img src="http://correio.rac.com.br/_midias/jpg/2018/04/09/206x155/1_ovelha-8379417.jpg" Imagens foram obtidas a bordo do navio e mostram as ovelhas confinadas com falta da água, espaço e cercadas ou cobertas de excremento" border="0" >
+                <span class="tv-data"></span>
+                <div style="width:200px;color:#fff;font-size:0.9em" class="text-wrapper">
+        Viagem de navio com 50 mil ovelhas é interrompida
+    </div>
+                <svg class="icon-play" viewBox="0 0 80 80" xml:space="preserve">
+                  <g id="XMLID_2_">
+                    <path id="XMLID_3_" d="
+                      M74.2,20.2c3.5,6.1,5.3,12.7,5.3,19.8c0,7.2-1.8,13.8-5.3,19.8c-3.5,6-8.3,10.8-14.4,14.4
+                      c-6,3.5-12.7,5.3-19.8,5.3c-7.2,0-13.8-1.8-19.8-5.3c-6-3.5-10.8-8.3-14.4-14.4c-3.5-6-5.3-12.7-5.3-19.8c0-7.2,1.8-13.8,5.3-19.8
+                      c3.5-6,8.3-10.8,14.4-14.4c6-3.5,12.7-5.3,19.8-5.3c7.2,0,13.8,1.8,19.8,5.3C65.9,9.3,70.7,14.1,74.2,20.2z M64.2,54
+                      c2.5-4.3,3.8-9,3.8-14c0-5.1-1.3-9.8-3.8-14c-2.5-4.3-5.9-7.7-10.2-10.2c-4.3-2.5-9-3.8-14-3.8c-5.1,0-9.8,1.3-14,3.8
+                      c-4.3,2.5-7.7,5.9-10.2,10.2c-2.5,4.3-3.8,9-3.8,14c0,5.1,1.3,9.8,3.8,14c2.5,4.3,5.9,7.7,10.2,10.2c4.3,2.5,9,3.8,14,3.8
+                      c5.1,0,9.8-1.3,14-3.8C58.3,61.7,61.7,58.3,64.2,54z M61.4,40c0,1.3-0.5,2.2-1.6,2.8l-28,16.5c-0.5,0.3-1.1,0.5-1.6,0.5
+                      c-0.5,0-1.1-0.1-1.6-0.4c-1.1-0.7-1.6-1.6-1.6-2.9V23.5c0-1.3,0.5-2.2,1.6-2.9c1.1-0.6,2.2-0.6,3.3,0.1l28,16.5
+                      C60.8,37.8,61.4,38.7,61.4,40z"/>
+                  </g>
+                </svg>
+              </a>
+            </div>
+  
+            <div class="tv-col-1" style="width:25%">
+              <a href="/_conteudo/2018/04/tv_correio/542624-netflix-lanca-trailer-da-2-parte-de-la-casa-de-papel.html">
+                <img src="http://correio.rac.com.br/_midias/jpg/2018/04/08/206x155/1_papel-8377509.jpg" La casa de papel'" border="0" >
+                <span class="tv-data"></span>
+                <div style="width:200px;color:#fff;font-size:0.9em" class="text-wrapper">
+        Netflix lança trailer da 2ª parte de 'La casa de papel'
+    </div>
+                <svg class="icon-play" viewBox="0 0 80 80" xml:space="preserve">
+                  <g id="XMLID_2_">
+                    <path id="XMLID_3_" d="
+                      M74.2,20.2c3.5,6.1,5.3,12.7,5.3,19.8c0,7.2-1.8,13.8-5.3,19.8c-3.5,6-8.3,10.8-14.4,14.4
+                      c-6,3.5-12.7,5.3-19.8,5.3c-7.2,0-13.8-1.8-19.8-5.3c-6-3.5-10.8-8.3-14.4-14.4c-3.5-6-5.3-12.7-5.3-19.8c0-7.2,1.8-13.8,5.3-19.8
+                      c3.5-6,8.3-10.8,14.4-14.4c6-3.5,12.7-5.3,19.8-5.3c7.2,0,13.8,1.8,19.8,5.3C65.9,9.3,70.7,14.1,74.2,20.2z M64.2,54
+                      c2.5-4.3,3.8-9,3.8-14c0-5.1-1.3-9.8-3.8-14c-2.5-4.3-5.9-7.7-10.2-10.2c-4.3-2.5-9-3.8-14-3.8c-5.1,0-9.8,1.3-14,3.8
+                      c-4.3,2.5-7.7,5.9-10.2,10.2c-2.5,4.3-3.8,9-3.8,14c0,5.1,1.3,9.8,3.8,14c2.5,4.3,5.9,7.7,10.2,10.2c4.3,2.5,9,3.8,14,3.8
+                      c5.1,0,9.8-1.3,14-3.8C58.3,61.7,61.7,58.3,64.2,54z M61.4,40c0,1.3-0.5,2.2-1.6,2.8l-28,16.5c-0.5,0.3-1.1,0.5-1.6,0.5
+                      c-0.5,0-1.1-0.1-1.6-0.4c-1.1-0.7-1.6-1.6-1.6-2.9V23.5c0-1.3,0.5-2.2,1.6-2.9c1.1-0.6,2.2-0.6,3.3,0.1l28,16.5
+                      C60.8,37.8,61.4,38.7,61.4,40z"/>
+                  </g>
+                </svg>
+              </a>
+            </div>
+  
+            <div class="tv-col-1" style="width:25%">
+              <a href="/_conteudo/2018/04/tv_correio/542112-lula-nao-se-entrega-a-pf-no-prazo-oferecido.html">
+                <img src="http://correio.rac.com.br/_midias/jpg/2018/04/06/206x155/1_lula_prazo-8375345.jpg" Às 17h o prazo para o ex-presidente se entregar à Polícia Federal em Curitiba terminou sem que Lula tivesse dado sinais das suas intenções" border="0" >
+                <span class="tv-data"></span>
+                <div style="width:200px;color:#fff;font-size:0.9em" class="text-wrapper">Lula não se entrega à PF no prazo oferecido</div>
+                <svg class="icon-play" viewBox="0 0 80 80" xml:space="preserve">
+                  <g id="XMLID_2_">
+                    <path id="XMLID_3_" d="
+                      M74.2,20.2c3.5,6.1,5.3,12.7,5.3,19.8c0,7.2-1.8,13.8-5.3,19.8c-3.5,6-8.3,10.8-14.4,14.4
+                      c-6,3.5-12.7,5.3-19.8,5.3c-7.2,0-13.8-1.8-19.8-5.3c-6-3.5-10.8-8.3-14.4-14.4c-3.5-6-5.3-12.7-5.3-19.8c0-7.2,1.8-13.8,5.3-19.8
+                      c3.5-6,8.3-10.8,14.4-14.4c6-3.5,12.7-5.3,19.8-5.3c7.2,0,13.8,1.8,19.8,5.3C65.9,9.3,70.7,14.1,74.2,20.2z M64.2,54
+                      c2.5-4.3,3.8-9,3.8-14c0-5.1-1.3-9.8-3.8-14c-2.5-4.3-5.9-7.7-10.2-10.2c-4.3-2.5-9-3.8-14-3.8c-5.1,0-9.8,1.3-14,3.8
+                      c-4.3,2.5-7.7,5.9-10.2,10.2c-2.5,4.3-3.8,9-3.8,14c0,5.1,1.3,9.8,3.8,14c2.5,4.3,5.9,7.7,10.2,10.2c4.3,2.5,9,3.8,14,3.8
+                      c5.1,0,9.8-1.3,14-3.8C58.3,61.7,61.7,58.3,64.2,54z M61.4,40c0,1.3-0.5,2.2-1.6,2.8l-28,16.5c-0.5,0.3-1.1,0.5-1.6,0.5
+                      c-0.5,0-1.1-0.1-1.6-0.4c-1.1-0.7-1.6-1.6-1.6-2.9V23.5c0-1.3,0.5-2.2,1.6-2.9c1.1-0.6,2.2-0.6,3.3,0.1l28,16.5
+                      C60.8,37.8,61.4,38.7,61.4,40z"/>
+                  </g>
+                </svg>
+              </a>
+            </div>
+  
+            <div class="tv-col-1" style="width:25%">
+              <a href="/_conteudo/2018/04/tv_correio/541584-jornais-brasileiros-destacam-decisao-do-stf.html">
+                <img src="http://correio.rac.com.br/_midias/jpg/2018/04/05/206x155/1_lula_jornais-8372408.jpg" Nas ruas, a votação também foi um dos principais assuntos entre os brasileiros" border="0" >
+                <span class="tv-data"></span>
+                <div style="width:200px;color:#fff;font-size:0.9em" class="text-wrapper">Jornais brasileiros destacam decisão do STF</div>
+                <svg class="icon-play" viewBox="0 0 80 80" xml:space="preserve">
+                  <g id="XMLID_2_">
+                    <path id="XMLID_3_" d="
+                      M74.2,20.2c3.5,6.1,5.3,12.7,5.3,19.8c0,7.2-1.8,13.8-5.3,19.8c-3.5,6-8.3,10.8-14.4,14.4
+                      c-6,3.5-12.7,5.3-19.8,5.3c-7.2,0-13.8-1.8-19.8-5.3c-6-3.5-10.8-8.3-14.4-14.4c-3.5-6-5.3-12.7-5.3-19.8c0-7.2,1.8-13.8,5.3-19.8
+                      c3.5-6,8.3-10.8,14.4-14.4c6-3.5,12.7-5.3,19.8-5.3c7.2,0,13.8,1.8,19.8,5.3C65.9,9.3,70.7,14.1,74.2,20.2z M64.2,54
+                      c2.5-4.3,3.8-9,3.8-14c0-5.1-1.3-9.8-3.8-14c-2.5-4.3-5.9-7.7-10.2-10.2c-4.3-2.5-9-3.8-14-3.8c-5.1,0-9.8,1.3-14,3.8
+                      c-4.3,2.5-7.7,5.9-10.2,10.2c-2.5,4.3-3.8,9-3.8,14c0,5.1,1.3,9.8,3.8,14c2.5,4.3,5.9,7.7,10.2,10.2c4.3,2.5,9,3.8,14,3.8
+                      c5.1,0,9.8-1.3,14-3.8C58.3,61.7,61.7,58.3,64.2,54z M61.4,40c0,1.3-0.5,2.2-1.6,2.8l-28,16.5c-0.5,0.3-1.1,0.5-1.6,0.5
+                      c-0.5,0-1.1-0.1-1.6-0.4c-1.1-0.7-1.6-1.6-1.6-2.9V23.5c0-1.3,0.5-2.2,1.6-2.9c1.1-0.6,2.2-0.6,3.3,0.1l28,16.5
+                      C60.8,37.8,61.4,38.7,61.4,40z"/>
+                  </g>
+                </svg>
+              </a>
+            </div>
+			  </div>
+        </div>
+    </div>	  
+	  
+    <div class="news-row">
+	  	</div>
+	<div class="news-row">
+			</div> 
+
+		
+    <div class="news-row">
+        <div class="header-row">
+          <a href="http://correio.rac.com.br/index.php?id=/metropole"><h2 class="news-row-title title-hardnews">Metrópole</h2></a>
+          <div class="header-links-container">
+            <a href="http://correio.rac.com.br/index.php?id=/revista_digital/" target="_blank" class="header-link">Edição Impressa</a>
+            <a href="http://correio.rac.com.br/	_conteudo/2015/06/metropole/263991-menu-completo.html" target="_blank" class="header-link">Metrópole Recomenda</a>
+             <a href="mailto:revista@rac.com.br" class="header-link">Fale Conosco</a>
+			<a href="https://www.facebook.com/revistametropole" target="_blank" class="social-networks-link facebook-icon"></a>
+            <a href="https://instagram.com/revistametropole/" target="_blank" class="social-networks-link instagram-icon"></a>
+          </div>
+        </div>
+        <div class="news-row">
+
+		<!--38210--> 
+<article class="news-box-picture row-2 col-2">
+            <a href='/_conteudo/2018/04/metropole/542914-nutricao-amorosa.html'>
+
+<img src="http://correio.rac.com.br/_midias/jpg/2018/04/09/574x590/1_foto_marcia_daskal-8379367.jpg" Nutricionista cria uma relação mais amistosa com a comida e fala da importância de ouvir as necessidades do corpo " border="0">
+</a>
+
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/metropole/542914-nutricao-amorosa.html" class="news-label hardnews">Entrevista</a>
+              <a href="/_conteudo/2018/04/metropole/542914-nutricao-amorosa.html" class="news-title">Nutrição amorosa</a>
+            </div>
+          </article>
+<!--39548--><article class="news-box-picture">
+<a href="/_conteudo/2018/04/metropole/543035-olho-de-sogra.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/04/09/281x290/1_olhodesogra-8379698.jpg" alt=Um toque especial para as comemorações" border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/metropole/543035-olho-de-sogra.html" class="news-label hardnews">Delícia</a>
+              <a href="/_conteudo/2018/04/metropole/543035-olho-de-sogra.html" class="news-title">Olho de sogra</a>
+            </div>
+</article>
+<article class="news-box-picture">
+<a href="/_conteudo/2018/04/metropole/543388-bendito-leite-vegetal.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/04/10/281x290/1_0804_leitedesoja-8382352.jpg" alt=Extratos, que já faziam parte do cardápio de quem tinha intolerância à lactose, também podem ser usados como complemento nutricional até por quem consome o leite animal " border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/metropole/543388-bendito-leite-vegetal.html" class="news-label hardnews">Saúde</a>
+              <a href="/_conteudo/2018/04/metropole/543388-bendito-leite-vegetal.html" class="news-title">Bendito leite vegetal!</a>
+            </div>
+</article>
+<article class="news-box-picture">
+<a href="/_conteudo/2018/04/metropole/543372-caldo-peixe-e-aconchego.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/04/10/281x290/1_dosesmetropole008xxxxxxxx-8382245.jpg" alt=Boteco da Vila vira referência para o consumidor interessado em um ambiente agradável e serviços prestados por chefs de primeira 
+
+FOTO: LeandroTorres/AAN" border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/metropole/543372-caldo-peixe-e-aconchego.html" class="news-label hardnews">Boteco da Vila</a>
+              <a href="/_conteudo/2018/04/metropole/543372-caldo-peixe-e-aconchego.html" class="news-title">Caldo, peixe e aconchego</a>
+            </div>
+</article>
+<article class="news-box-picture">
+<a href="/_conteudo/2018/03/metropole/538035-atraso-de-linguagem.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/03/26/281x290/1_2503pingue-8350099.jpg" alt=A otorrinolaringologista Juliana Bertoncello" border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/03/metropole/538035-atraso-de-linguagem.html" class="news-label hardnews">Entrevista </a>
+              <a href="/_conteudo/2018/03/metropole/538035-atraso-de-linguagem.html" class="news-title">Atraso de linguagem </a>
+            </div>
+</article>
+ 	
+       </div>
+	  <div class="news-row">
+		<!--38212--><article class="news-box-picture">
+<a href="/_conteudo/2018/03/metropole/535711-30-minutos-pra-entrar-em-forma.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/03/19/281x290/1_1802_treinofuncional_7_corda-8337366.jpg" alt=Circuito funcional garante queima de gordura" border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/03/metropole/535711-30-minutos-pra-entrar-em-forma.html" class="news-label hardnews">treino funcional</a>
+              <a href="/_conteudo/2018/03/metropole/535711-30-minutos-pra-entrar-em-forma.html" class="news-title">
+        30 minutos<br>pra entrar em forma
+    </a>
+            </div>
+</article>
+<article class="news-box-picture">
+<a href="/_conteudo/2018/04/metropole/543042-de-cara-nova.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/04/09/281x290/1_make_b_02-8379805.jpg" alt=Make B. traz embalagens mais elegantes e sofisticadas," border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/04/metropole/543042-de-cara-nova.html" class="news-label hardnews">Beleza</a>
+              <a href="/_conteudo/2018/04/metropole/543042-de-cara-nova.html" class="news-title">De cara nova</a>
+            </div>
+</article>
+<article class="news-box-picture">
+<a href="/_conteudo/2018/03/metropole/534226-xadrez-em-alta.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/03/14/281x290/1_chanel_03-8329599.jpg" alt=Desfile Chanel Inverno 2018" border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/03/metropole/534226-xadrez-em-alta.html" class="news-label hardnews">Trend</a>
+              <a href="/_conteudo/2018/03/metropole/534226-xadrez-em-alta.html" class="news-title">Xadrez couture em alta</a>
+            </div>
+</article>
+<article class="news-box-picture">
+<a href="/_conteudo/2018/03/metropole/535585-comida-perfeita-e-a-simples.html"><img src="http://correio.rac.com.br/_midias/jpg/2018/03/19/281x290/1_1803chef-8336200.jpg" alt=Chef André Bearzotti: penso que a comida perfeita tem que ser simples e marcar as pessoas pelo sabor, pelo aroma e pela textura" border="0">
+            <div class="text-wrapper">
+              <a href="/_conteudo/2018/03/metropole/535585-comida-perfeita-e-a-simples.html" class="news-label hardnews">Chef</a>
+              <a href="/_conteudo/2018/03/metropole/535585-comida-perfeita-e-a-simples.html" class="news-title">Comida perfeita é a simples </a>
+            </div>
+</article>
+	
+	 </div>
+        </div>
+     </div>
+
+	 <div class="publicity-box-969" style="/*text-align: center;*/margin-left: 220px;">
+			<span class="publicity-label" style="width: 728px;text-align: left;">Publicidade</span>
+		
+		<!-- /1003400/TOP2-CP-HOME-2016 -->
+		<div id='div-gpt-ad-1458048505649-8' style='height:90px; width:728px;'>
+		<script type='text/javascript'>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1458048505649-8'); });
+		</script>
+		</div>
+
+
+				
+      </div>
+
+		  
+<div class="widget-roteiro">
+	<div class="widget-header">
+	  <strong class="roteiro-title">Roteiro</strong>
+	</div>
+	<div class="roteiro-wrapper">
+	  <img src="imagens/novo_correio/roteiro-icons.png" alt="Ícones ilustrando objetos de cozinha" class="roteiro-icons">
+	  <p class="roteiro-description">Encontre diversas opções de bares, botecos e restaurantes.</p>
+	  
+	  <div class="fancy-wrapper">
+		<form action="/widget/roteiro_metropole/_busca_na_base.php" method="post" name="busca">
+			<select name="listTipos" id="listTipos" class="roteiro-select" style="z-index: 100000;">
+				<option  id='opcoes' value=''>Selecione um tipo de estabelecimento</option><option value='1' id='opcoes' >Alemão</option><option value='2' id='opcoes' >Árabe</option><option value='25' id='opcoes' >Bares/Baladas</option><option value='3' id='opcoes' >Brasileira</option><option value='32' id='opcoes' >Cafés</option><option value='5' id='opcoes' >Carnes e rodízios</option><option value='7' id='opcoes' >Chineses</option><option value='26' id='opcoes' >Choperias</option><option value='28' id='opcoes' >Docerias</option><option value='8' id='opcoes' >Frances</option><option value='10' id='opcoes' >Internacional</option><option value='11' id='opcoes' >Italiano</option><option value='12' id='opcoes' >Japoneses</option><option value='24' id='opcoes' >Lanchonete</option><option value='13' id='opcoes' >Mexicano</option><option value='14' id='opcoes' >Naturais</option><option value='15' id='opcoes' >Norte-Americanos</option><option value='36' id='opcoes' >Padarias</option><option value='16' id='opcoes' >Peixes e Frutos do Mar</option><option value='18' id='opcoes' >Pizzas</option><option value='20' id='opcoes' >Português</option><option value='30' id='opcoes' >Rotisserias</option><option value='35' id='opcoes' >Sorveteria</option><option value='22' id='opcoes' >Tailandês</option><option value='23' id='opcoes' >Variados</option>
+			</select>
+
+			<select name="listLocais" id="listLocais" class="roteiro-select">
+				<option  id='opcoes' value=''> Selecione uma localização</option><option value='barao geraldo' id='opcoes' >Barão Geraldo</option><option value='campinas' id='opcoes' >Campinas</option><option value='holambra' id='opcoes' >Holambra</option><option value='indaiatuba' id='opcoes' >Indaiatuba</option><option value='jaguariuna' id='opcoes' >Jaguariúna</option><option value='joaquim egidio' id='opcoes' >Joaquim Egídio</option><option value='mogi mirin' id='opcoes' >Mogi Mirin</option><option value='nova sousas' id='opcoes' >Nova Sousas</option><option value='paulinia' id='opcoes' >Paulínia</option><option value='pedreira' id='opcoes' >Pedreira</option><option value='sousas' id='opcoes' >Sousas</option><option value='sumare' id='opcoes' >Sumaré</option><option value='valinhos' id='opcoes' >Valinhos</option><option value='vinhedo' id='opcoes' >Vinhedo</option>
+			</select>
+
+			</div>
+
+		  <button class="roteiro-buscar"><span class="find-icon"></span>Buscar</button>
+		</form>
+	</div>
+
+</div>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://172.16.1.18/sites/correio/includes/js/novo_cp/plugins/bxslider/jquery.bxslider.min.js"></script>
+<script src="http://172.16.1.18/sites/correio/includes/js/novo_cp/controllers/widget-classifieds.js"></script>
+<link rel="stylesheet" href="http://172.16.1.18/sites/correio/includes/css/novo_correio/style.css?'.uniqid("").'"> -->
+
+
+      <div class="widget-classifieds" style="margin-top:55px;">
+        <div class="widget-header">
+          <strong class="classifieds-title"><a href="http://www.classificadosdocorreio.com.br/" style="color:#000">Classificados</a></strong>
+        </div>
+
+        <div class="classifieds-slider-wrapper">
+          <ul id="classifieds-houses" class="classifieds-slider">
+		  
+<li class="classifieds-item">
+				  <a href="
+									http://imoveis.classificadosdocorreio.com.br/index.php?id=/home/materia.php&cd_matia=20904
+								" target="_blank()">
+					<img src="
+									https://s3-sa-east-1.amazonaws.com/grupo-union/933/20716355.jpg 
+								" class="classifieds-img" width="180" height="124">
+
+					<div class="classifieds-infos">
+					 <span class="classifieds-label label-venda">
+									VENDE-SE APTO
+								</span>
+
+					  <strong class="classifieds-item-title" style="text-transform:capitalize">
+						
+									jardim america
+								
+					  </strong>
+
+					  <span class="classifieds-price">R$ 
+									 455.000,00 
+								</span>
+					</div>
+				  </a>
+            </li><li class="classifieds-item">
+				  <a href="
+									http://imoveis.classificadosdocorreio.com.br/index.php?id=/home/materia.php&cd_matia=3246
+								" target="_blank()">
+					<img src="
+									https://s3-sa-east-1.amazonaws.com/grupo-union/36/2016/12/46773064.jpg 
+								" class="classifieds-img" width="180" height="124">
+
+					<div class="classifieds-infos">
+					 <span class="classifieds-label label-venda">
+									VENDE-SE APTO
+								</span>
+
+					  <strong class="classifieds-item-title" style="text-transform:capitalize">
+						
+									taquaral
+								
+					  </strong>
+
+					  <span class="classifieds-price">R$ 
+									 560.000,00 
+								</span>
+					</div>
+				  </a>
+            </li><li class="classifieds-item">
+				  <a href="
+									http://imoveis.classificadosdocorreio.com.br/index.php?id=/home/materia.php&cd_matia=1781
+								" target="_blank()">
+					<img src="
+									https://s3-sa-east-1.amazonaws.com/grupo-union/25/2016/07/33606072.jpg 
+								" class="classifieds-img" width="180" height="124">
+
+					<div class="classifieds-infos">
+					 <span class="classifieds-label label-aluga">
+									ALUGA-SE APTO
+								</span>
+
+					  <strong class="classifieds-item-title" style="text-transform:capitalize">
+						
+									centro
+								
+					  </strong>
+
+					  <span class="classifieds-price">R$ 
+									 1.000,00 
+								</span>
+					</div>
+				  </a>
+            </li><li class="classifieds-item">
+				  <a href="
+									http://imoveis.classificadosdocorreio.com.br/index.php?id=/home/materia.php&cd_matia=10783
+								" target="_blank()">
+					<img src="
+									https://s3-sa-east-1.amazonaws.com/grupo-union/933/24054330.jpg 
+								" class="classifieds-img" width="180" height="124">
+
+					<div class="classifieds-infos">
+					 <span class="classifieds-label label-venda">
+									VENDE-SE APTO
+								</span>
+
+					  <strong class="classifieds-item-title" style="text-transform:capitalize">
+						
+									loteamento country ville
+								
+					  </strong>
+
+					  <span class="classifieds-price">R$ 
+									 198.000,00 
+								</span>
+					</div>
+				  </a>
+            </li><li class="classifieds-item">
+				  <a href="
+									http://imoveis.classificadosdocorreio.com.br/index.php?id=/home/materia.php&cd_matia=925
+								" target="_blank()">
+					<img src="
+									https://s3-sa-east-1.amazonaws.com/grupo-union/21/14681160.jpg 
+								" class="classifieds-img" width="180" height="124">
+
+					<div class="classifieds-infos">
+					 <span class="classifieds-label label-venda">
+									VENDE-SE TERRENO
+								</span>
+
+					  <strong class="classifieds-item-title" style="text-transform:capitalize">
+						
+									sÃo pedro
+								
+					  </strong>
+
+					  <span class="classifieds-price">R$ 
+									 320.000,00 
+								</span>
+					</div>
+				  </a>
+            </li><li class="classifieds-item">
+				  <a href="
+									http://imoveis.classificadosdocorreio.com.br/index.php?id=/home/materia.php&cd_matia=31994
+								" target="_blank()">
+					<img src="
+									https://pfotos.gestaoreal.com.br/arquivos/imobiliaria585ac78fbf96d556d48b456e/imagens_599c6ddabe96d5e95c8b47df/imagens_414873.jpg 
+								" class="classifieds-img" width="180" height="124">
+
+					<div class="classifieds-infos">
+					 <span class="classifieds-label label-venda">
+									VENDE-SE APTO
+								</span>
+
+					  <strong class="classifieds-item-title" style="text-transform:capitalize">
+						
+									jardim myrian moreira da costa
+								
+					  </strong>
+
+					  <span class="classifieds-price">R$ 
+									 1.350.000,00 
+								</span>
+					</div>
+				  </a>
+            </li>
+	  </ul>
+
+	  <button class="widget-control control-prev" id="classifieds-houses-prev"></button>
+
+	  <button class="widget-control control-next" id="classifieds-houses-next"></button>
+	</div>
+
+
+
+
+ 
+        <div class="classifieds-slider-wrapper">
+          <ul id="classifieds-cars" class="classifieds-slider">
+            
+			
+<li class="classifieds-item">
+				
+				  <a href="http://veiculos.classificadosdocorreio.com.br/index.php?id=/home/materia.php&cd_matia=31068" target="_blank()">
+					<img src="
+									https://dsae.s3.amazonaws.com/46991782001060/Fotos/FRF-0040_01.jpg
+								" class="classifieds-img" width="180" height="124">
+
+					<div class="classifieds-infos">
+					  <span class="classifieds-label label-venda">
+									FIAT
+								</span>
+
+					  <strong class="classifieds-item-title" style="text-transform:capitalize">
+						
+									siena  1.6 mpi essence 16v 
+								
+					  </strong>
+
+					  <span class="classifieds-price">R$ 
+									 37.990,00 
+								</span>
+					</div>
+				  </a>
+            </li><li class="classifieds-item">
+				
+				  <a href="http://veiculos.classificadosdocorreio.com.br/index.php?id=/home/materia.php&cd_matia=30271" target="_blank()">
+					<img src="
+									https://dsae.s3.amazonaws.com/46991782000411/Fotos/226106_01.jpg
+								" class="classifieds-img" width="180" height="124">
+
+					<div class="classifieds-infos">
+					  <span class="classifieds-label label-venda">
+									FIAT
+								</span>
+
+					  <strong class="classifieds-item-title" style="text-transform:capitalize">
+						
+									toro  2.4 16v multiair freedom 
+								
+					  </strong>
+
+					  <span class="classifieds-price">R$ 
+									 102.390,00 
+								</span>
+					</div>
+				  </a>
+            </li><li class="classifieds-item">
+				
+				  <a href="http://veiculos.classificadosdocorreio.com.br/index.php?id=/home/materia.php&cd_matia=27137" target="_blank()">
+					<img src="
+									https://dsautoestoque.s3.amazonaws.com/46991782000926/Fotos/226165_01.jpg
+								" class="classifieds-img" width="180" height="124">
+
+					<div class="classifieds-infos">
+					  <span class="classifieds-label label-venda">
+									FIAT
+								</span>
+
+					  <strong class="classifieds-item-title" style="text-transform:capitalize">
+						
+									toro  2.0 16v turbo freedom 4x4 
+								
+					  </strong>
+
+					  <span class="classifieds-price">R$ 
+									 117.790,00 
+								</span>
+					</div>
+				  </a>
+            </li><li class="classifieds-item">
+				
+				  <a href="http://veiculos.classificadosdocorreio.com.br/index.php?id=/home/materia.php&cd_matia=30244" target="_blank()">
+					<img src="
+									https://dsae.s3.amazonaws.com/46991782000411/Fotos/358A4H_01.jpg
+								" class="classifieds-img" width="180" height="124">
+
+					<div class="classifieds-infos">
+					  <span class="classifieds-label label-venda">
+									FIAT
+								</span>
+
+					  <strong class="classifieds-item-title" style="text-transform:capitalize">
+						
+									argo  1.3 firefly drive 
+								
+					  </strong>
+
+					  <span class="classifieds-price">R$ 
+									 52.490,00 
+								</span>
+					</div>
+				  </a>
+            </li><li class="classifieds-item">
+				
+				  <a href="http://veiculos.classificadosdocorreio.com.br/index.php?id=/home/materia.php&cd_matia=26531" target="_blank()">
+					<img src="
+									http://img.dsautoestoque.com/46991782000179/fotos/EDM-2738_01.jpg
+								" class="classifieds-img" width="180" height="124">
+
+					<div class="classifieds-infos">
+					  <span class="classifieds-label label-venda">
+									FIAT
+								</span>
+
+					  <strong class="classifieds-item-title" style="text-transform:capitalize">
+						
+									palio  1.0 mpi elx 8v 
+								
+					  </strong>
+
+					  <span class="classifieds-price">R$ 
+									 20.900,00 
+								</span>
+					</div>
+				  </a>
+            </li><li class="classifieds-item">
+				
+				  <a href="http://veiculos.classificadosdocorreio.com.br/index.php?id=/home/materia.php&cd_matia=32439" target="_blank()">
+					<img src="
+									https://dsae.s3.amazonaws.com/46991782000179/Fotos/NOY-1260_01.jpg
+								" class="classifieds-img" width="180" height="124">
+
+					<div class="classifieds-infos">
+					  <span class="classifieds-label label-venda">
+									NISSAN
+								</span>
+
+					  <strong class="classifieds-item-title" style="text-transform:capitalize">
+						
+									frontier  2.5 xe 4x2 cd turbo el 
+								
+					  </strong>
+
+					  <span class="classifieds-price">R$ 
+									 57.990,00 
+								</span>
+					</div>
+				  </a>
+            </li>			
+          </ul>
+
+           <button class="widget-control control-prev" id="classifieds-cars-prev"></button>
+
+          <button class="widget-control control-next" id="classifieds-cars-next"></button>
+        </div>
+
+      </div>
+    					
+
+			
+		<!-- /1003400/SIDETAB-CP-HOME-2016 -->
+		<div id='div-gpt-ad-1458048505649-5'>
+		<script type='text/javascript'>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1458048505649-5'); });
+		</script>
+		</div>
+
+
+
+	
+
+						
+	
+    </div>
+</div>
+     <footer class="menu-footer" style="margin-top:115px;">
+      <div class="wrapper footer-wrapper">
+	  <div class="social-subscribe-contact">
+		<div class="social-networks">
+            <strong class="social-networks-title">Acesse nas redes sociais</strong>
+            <a href="https://www.facebook.com/CPopular" class="facebook-icon"></a>
+            <a href="https://twitter.com/correiopontocom" class="twitter-icon"></a>
+            <a href="https://instagram.com/correiopopular/" class="instagram-icon"></a>
+          </div>
+
+          <div class="newspaper">
+            <div class="subscribe-correio-popular">
+              <span class="subscribe-title">Assine o Correio Popular</span>
+              <a href="http://www.assinecorreio.com.br" class="subscribe-now">Assine agora</a>
+            </div>
+
+            <img src="imagens/novo_correio/correio-jornal.png" height="64" width="76" alt="Assine a versão impressa." class="newspaper-image">
+            
+            <div class="already-subscriber">
+              <span class="already-subscriber-title">Já é assinante?</span>
+              <a href="http://correio.rac.com.br/jornal_impresso" class="already-subscriber-link">Acesse a versão impressa</a>
+            </div>
+          </div>
+		 </div> 
+        <script type="text/javascript">
+				$.ajax({
+				url: 'http://correio.rac.com.br/includes/paginas/novo_correio/widgets/cotacao_bolsa.php', 
+				cache: false,
+				success: function(html){
+					$('#cotacao_bolsa_espaco').append(html);
+				}
+				});
+				$.ajaxSetup({cache: false});		
+		</script>
+        <div class="social-subscribe-contact">
+          <div class="rac-group">
+            <div class="rac-group-item talk-us">
+              <span class="rac-group-title">Fale conosco</span>
+              <span class="rac-group-contact-info">(19) 3772-8000</span>
+              <span class="rac-group-contact-info">faleconosco@rac.com.br</span>
+            </div>
+
+            <div class="rac-group-item subscriber-central">
+              <span class="rac-group-title">Central do assinante</span>
+              <span class="rac-group-contact-info">(19) 3736-3200</span>
+            </div>
+
+            <div class="rac-group-item advertise">
+              <span class="rac-group-title">Anuncie</span>
+              <span class="rac-group-contact-info">(19) 3736-3085</span>
+              <span class="rac-group-contact-info">(19) 3116-3085</span>
+              <span class="rac-group-contact-info">(11) 3704-1600</span>
+				<a href="http://correio.rac.com.br/midiakit/" class="rac-group-link">
+					<span class="rac-group-title" style="margin-top: 25px;margin-bottom: -25px;">Mídia Kit</span>
+				</a>
+				
+				<a href="http://correiocult.rac.com.br/" target="_blank" class="rac-group-link">
+					<span class="rac-group-title" style="margin-top: 35px;margin-bottom: -25px;">Correio Cult</span>
+				</a>
+            </div>
+
+            <div class="rac-group-item whatsapp">
+              <span class="rac-group-title">Whatsapp</span>
+              <span class="rac-group-contact-info">(19) 9 9998-9902</span>
+            </div>
+
+            <div class="rac-group-item">
+              <a href="http://correio.rac.com.br/termo_de_uso" class="rac-group-link">Termos de uso</a>
+              <a href="http://correio.rac.com.br/expediente" class="rac-group-link">Expediente</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+    <footer class="main-footer">
+      <div class="wrapper">
+        <span>Todos os direitos reservados</span>
+        <span>www.correio.com.br</span>
+        <span>1980 - 2018</span>
+        <img src="imagens/novo_correio/correio_branco.png" width="150" alt="" class="logo-footer">
+      </div>
+    </footer>
+
+  </main>
+
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.5&appId=1309109959118194";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+  </script>
+	
+<!-- analytics RAC 	
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  
+	var pluginUrl = 
+	 '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+	_gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+	
+  _gaq.push(['_setAccount', 'UA-20614891-1']);
+  _gaq.push(['_setDomainName', 'rac.com.br']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>-->	
+<!-- analytics correio -->	
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27622810-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+ 
+   
+	
+	<!--<script src="includes/js/novo_cp/controllers/widget-movies.js"></script>
+	<script src="includes/js/novo_cp/controllers/widget-classifieds.js"></script>
+	<script src="includes/js/novo_cp/controllers/widget-horoscope.js"></script>-->
+	<script src="includes/js/novo_cp/plugins/FancySelect/fancySelect.js"></script>
+	<script src="includes/js/novo_cp/controllers/widget-roteiro.js"></script>
+	<script src="includes/js/novo_cp/controllers/dropdown.js"></script>
+	<script src="includes/js/novo_cp/controllers/fb-share.js"></script>
+	<script src="includes/js/novo_cp/controllers/bau-share-buttons.js"></script>
+	<script src="includes/js/novo_cp/plugins/bxslider/jquery.bxslider.min.js"></script>	
+	<script src="includes/js/novo_cp/controllers/tabelas-sports.js"></script>
+	<script src="includes/js/novo_cp/controllers/bau-photos-slider.js"></script>
+  
+ 		
+
+
+<!-- Conversion Pixel - YOptima_RAC_Visitor - DO NOT MODIFY -->
+<img src="https://secure.adnxs.com/px?id=677905&seg=4780179&t=2" width="1" height="1" />
+<!-- End of Conversion Pixel -->
+
+
+<!-- CONTADOR DE IMPRESSÃƒO 
+<img src='http://oasc17115.247realmedia.com/RealMedia/ads/adstream_nx.ads/rmanj/pixel_teste/@x04!x04'>-->
+
+<!--cdn<script async src="https://cdn.onthe.io/io.js/9wgrtwC8DkVd"></script>cdn-->
+</body>
+</html>	
+ 
+		<div id="mob1"></div>
+	
+	<script type="text/javascript">
+	$(document).ready(function(){
+		if (navigator.userAgent.match(/Android|BlackBerry|iPhone|iPod|Opera Mini|IEMobile/i) )
+		{	if(screen.width < 590 ){document.getElementById('mob1').innerHTML = "<div id='mob1int' onclick='showmobile();'><h1 align=center>Voltar para versão Mobile</h1></div>";	}
+		}
+	});
+	
+	function showmobile(){
+		xmlhttp = new XMLHttpRequest();
+		xmlhttp.onreadystatechange = function() {
+			if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {window.location.href = 'http://correio.rac.com.br/correio_mobile/mobile.php?chanel=0';}
+		}
+		xmlhttp.open("GET","/correio_mobile/deleta_cookie_mob.php",true);
+		xmlhttp.send();
+	}
+	</script>
+	
+		
+				
+			<script>
+				$.ajax({
+				url: 'includes/paginas/novo_correio/widgets/placar.php', 
+				cache: false,
+				success: function(html){
+					if(html){
+						$('#placar-top').html(html);
+					}
+				}
+				});
+				$.ajaxSetup({cache: false});
+				
+			</script>
+			
+						
