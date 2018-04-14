@@ -25,3 +25,24 @@ print("Lendo arquivo", file_path, "...")
 image = misc.imread(file_path, False, "RGB")
 
 misc.imsave(result_file_path, image)
+
+textfile  = open(text_path, 'r')
+text = ""
+for line in textfile:
+     text = text + line
+
+# ISTO FUNCIONA!!! EEEEEE
+bin_text = bin(int.from_bytes(text.encode(), 'big'))
+
+print(len(bin_text))
+
+#print(bin_text)
+
+n = int(bin_text, 2)
+#other_text = n.to_bytes((n.bit_length() + 7) // 8, 'big').decode()
+
+#print(other_text)
+
+bits = [( n >> bit) & 1 for bit in range(len(bin_text) - 1, -1, -1)]
+
+print(len(bits))
