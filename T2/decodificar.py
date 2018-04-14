@@ -23,4 +23,7 @@ print("Lendo arquivo", file_path, "...")
 # loading the PNG into a ndarray
 image = misc.imread(file_path, False, "RGB")
 
-misc.imsave(result_file_path, image)
+#n = int(bin_text, 2)
+#other_text = n.to_bytes((n.bit_length() + 7) // 8, 'big').decode()
+
+#print(other_text)
