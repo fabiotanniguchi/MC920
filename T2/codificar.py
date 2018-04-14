@@ -9,7 +9,15 @@ import sys as s
 import scipy as sp
 from scipy import misc
 
+# this code has to be run with input parameters:
+#
 # python codificar.py imagem_entrada.png texto_entrada.txt plano_bits imagem_saida.png
+#
+# 1 - image_path
+# 2 - textfile_path
+# 3 - int number of the bits plan to be coded
+# 4 - result image path
+#
 # python decodificar.py imagem_saida.png plano_bits texto_saida.txt
 
 #-----------------------------------------------------------------------------------------
