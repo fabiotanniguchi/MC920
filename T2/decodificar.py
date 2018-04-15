@@ -29,11 +29,10 @@ print("Carregando imagem em", file_path, "...")
 # loading the PNG into a ndarray
 image = misc.imread(file_path, False, "RGB")
 
-flatten_ndarray = image.flatten()
-
-flatten_ndarray = (flatten_ndarray & (1 << int(bits_plan))) >> int(bits_plan)
-
+# extracting the bits plan
 result_image = (image & (1 << int(bits_plan))) >> int(bits_plan)
+
+# scipy does not recognize binary-RGB, so the image is filled with 0-or-255 instead of 0-or-1
 result_image = result_image * 255
 
 print("Escrevendo resultado em", result_file_path, "...")
