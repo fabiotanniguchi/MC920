@@ -1,0 +1,5 @@
+python codificar.py "D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T2\monalisa.png" "D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T2\text.txt" 1 "D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T2\monalisa_result.png"
+python codificar.py "D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T2\peppers.png" "D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T2\text.txt" 1 "D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T2\peppers_result.png"
+python codificar.py "D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T2\watch.png" "D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T2\text.txt" 1 "D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T2\watch_result.png"
+python codificar.py "D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T2\baboon.png" "D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T2\text.txt" 1 "D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T2\baboon_result.png"
+python codificar.py "D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T2\DSC05354.png" "D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T2\text.txt" 1 "D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T2\DSC05354_result.png"

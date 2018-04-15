@@ -7,6 +7,7 @@
 
 import sys as s
 import scipy as sp
+import bitarray as ba
 from scipy import misc
 
 # this code has to be run with input parameters:
@@ -40,12 +41,16 @@ for line in textfile:
      text = text + line
 
 # converting the text into binary
-bin_text = bin(int.from_bytes(text.encode(), 'big'))
+#bin_text = bin(int.from_bytes(text.encode(), 'big'))
 
-n = int(bin_text, 2)
+#n = int(bin_text, 2)
 
 # converting binary into a flat ndarray of bits
-bits = sp.array([( n >> bit) & 1 for bit in range(len(bin_text) - 1, -1, -1)])
+#bits = sp.array([( n >> bit) & 1 for bit in range(len(bin_text) - 1, -1, -1)])
+bit_array = ba.bitarray()
+text = text.encode("ascii", "replace")
+bit_array.frombytes(text)
+bits = sp.array(bit_array.tolist())
 
 # resizing the array of bits into a ndarray with same shape of the image
 # when the new shape is bigger than the last one scipy fills with zero

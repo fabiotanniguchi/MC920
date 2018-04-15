@@ -8,8 +8,14 @@
 import sys as s
 from scipy import misc
 
-# python codificar.py imagem_entrada.png texto_entrada.txt plano_bits imagem_saida.png
-# python decodificar.py imagem_saida.png plano_bits texto_saida.txt
+# this code has to be run with input parameters:
+#
+# python decodificar.py imagem.png plano_bits decodificada.png
+#
+# 1 - image path
+# 2 - int number of the bits plan to be decoded
+# 3 - result image path
+#
 
 #-----------------------------------------------------------------------------------------
 
@@ -18,12 +24,19 @@ file_path = s.argv[1]
 bits_plan = s.argv[2]
 result_file_path = s.argv[3]
 
-print("Lendo arquivo", file_path, "...")
+print("Carregando imagem em", file_path, "...")
 
 # loading the PNG into a ndarray
 image = misc.imread(file_path, False, "RGB")
 
-#n = int(bin_text, 2)
-#other_text = n.to_bytes((n.bit_length() + 7) // 8, 'big').decode()
+flatten_ndarray = image.flatten()
 
-#print(other_text)
+flatten_ndarray = (flatten_ndarray & (1 << int(bits_plan))) >> int(bits_plan)
+
+result_image = (image & (1 << int(bits_plan))) >> int(bits_plan)
+result_image = result_image * 255
+
+print("Escrevendo resultado em", result_file_path, "...")
+misc.imsave(result_file_path, result_image)
+
+print("Finalizado!")
