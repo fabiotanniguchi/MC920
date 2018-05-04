@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3038d180-0361-449b-8256-33175812a479" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../T3/alinhar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="alinhar.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../T3/alinhar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state relative-caret-position="476">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="e#249#264#0" expanded="true" />
               </folding>
@@ -79,10 +78,6 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="T0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="T1" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="T0" type="b2602c69:ProjectViewProjectNode" />
               <item name="T3" type="462c0819:PsiDirectoryNode" />
@@ -255,7 +250,21 @@
       <option name="project" value="LOCAL" />
       <updated>1523769544130</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Starting T3">
+      <created>1525445737865</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1525445737865</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Starting T3">
+      <created>1525445756874</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1525445756874</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -290,7 +299,8 @@
     <MESSAGE value="Coded-image done" />
     <MESSAGE value="Coded-image done; little improvements" />
     <MESSAGE value="Finalizing code/decode programs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalizing code/decode programs" />
+    <MESSAGE value="Starting T3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting T3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -483,8 +493,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../T3/alinhar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="e#249#264#0" expanded="true" />
           </folding>
