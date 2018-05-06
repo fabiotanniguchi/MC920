@@ -6,12 +6,40 @@
 #-----------------------------------------------------------------------------------------
 
 import sys as s
+import numpy as np
 from scipy import misc
-import matplotlib as plt
+from skimage import transform
+from skimage import filters
+import matplotlib.pyplot as plt
+from matplotlib import cm
 
 #-----------------------------------------------------------------------------------------
 
+def alignHProj(image, out_file_path):
+    max_amplitude = 0
+    max_amplitude_angle = 0
 
+    for x in range(-90, 90):
+        rotated = transform.rotate(image, x, resize=True)
+        
+        sum_lines = np.sum(rotated, axis=1)
+        amplitude = np.max(sum_lines)
+
+        if (amplitude > max_amplitude):
+            max_amplitude = amplitude
+            max_amplitude_angle = x
+
+    final_image = transform.rotate(image, max_amplitude_angle, resize=True)
+    final_image_for_pyplot = abs(final_image - 1)
+
+    plt.imsave(out_file_path, final_image_for_pyplot, cmap=cm.gray, vmin=0, vmax=1)
+
+    return 0
+
+#-----------------------------------------------------------------------------------------
+
+def alignHoughTransf(image, out_file_path):
+    return 0
 
 
 #-----------------------------------------------------------------------------------------
@@ -26,3 +54,21 @@ print("Lendo arquivo", file_path, "...")
 # loading the PNG into a ndarray
 image = misc.imread(file_path, True)
 
+threshold = filters.threshold_yen(image)
+bin_image = image <= threshold
+
+#plt.title("Imagem binária")
+#plt.imshow(bin_image, cmap="Greys",  interpolation="nearest")
+#plt.show()
+
+if(align_mode == "1"):
+    alignHProj(bin_image, out_file_path)
+else:
+    if(align_mode == "2"):
+        alignHoughTransf(bin_image, out_file_path)
+    else:
+        print()
+        print("Escolha uma opção válida")
+        print()
+        print("Modo 1 para Alinhamento por Projeção Horizontal")
+        print("Modo 2 para Alinhamento por Transformada de Hough")
