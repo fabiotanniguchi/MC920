@@ -6,12 +6,17 @@
 #-----------------------------------------------------------------------------------------
 
 import sys as s
+
 import numpy as np
+
 from scipy import misc
-from skimage import transform
+
 from skimage import filters
-import matplotlib.pyplot as plt
+from skimage import segmentation
+from skimage import transform
+
 from matplotlib import cm
+from matplotlib import pyplot as plt
 
 #-----------------------------------------------------------------------------------------
 
@@ -51,15 +56,15 @@ out_file_path = s.argv[3]
 
 print("Lendo arquivo", file_path, "...")
 
-# loading the PNG into a ndarray
 image = misc.imread(file_path, True)
 
 threshold = filters.threshold_yen(image)
 bin_image = image <= threshold
+bin_image = segmentation.clear_border(bin_image)
 
-#plt.title("Imagem binária")
-#plt.imshow(bin_image, cmap="Greys",  interpolation="nearest")
-#plt.show()
+plt.title("Imagem binária")
+plt.imshow(bin_image, cmap="Greys",  interpolation="nearest")
+plt.show()
 
 if(align_mode == "1"):
     alignHProj(bin_image, out_file_path)
