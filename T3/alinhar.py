@@ -41,6 +41,8 @@ def alignHProj(image, out_file_path):
     final_image = transform.rotate(image, max_amplitude_angle, resize=True, preserve_range=True)
     final_image_for_pyplot = abs(final_image - 1)
 
+    print()
+    print("Salvando arquivo", out_file_path, "...")
     io.imsave(out_file_path, img_as_uint(final_image_for_pyplot))
 
     return 0
@@ -63,6 +65,8 @@ def alignHoughTransf(image, out_file_path):
     final_image = transform.rotate(image, rotation_number, resize=True, preserve_range=True)
     final_image_for_pyplot = abs(final_image - 1)
 
+    print()
+    print("Salvando arquivo", out_file_path, "...")
     io.imsave(out_file_path, img_as_uint(final_image_for_pyplot))
 
     return 0
@@ -98,3 +102,6 @@ with warnings.catch_warnings():
         print()
         print("Modo 1 para Alinhamento por Projeção Horizontal")
         print("Modo 2 para Alinhamento por Transformada de Hough")
+
+print()
+print("FIM")
