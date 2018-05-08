@@ -5,16 +5,17 @@
 #
 #-----------------------------------------------------------------------------------------
 
+import imageio as io
+
 import sys as s
 
 import numpy as np
 
 from scipy import misc
+from scipy import ndimage
 
 from skimage import feature
 from skimage import filters
-from skimage import img_as_uint
-from skimage import io
 from skimage import segmentation
 from skimage import transform
 
@@ -29,7 +30,7 @@ def alignHProj(image, out_file_path):
     max_amplitude_angle = 0
 
     for x in range(-90, 90):
-        rotated = transform.rotate(image, x, resize=True, preserve_range=True)
+        rotated = misc.imrotate(image, x)
         
         sum_lines = np.sum(rotated, axis=1)
         amplitude = np.max(sum_lines)
@@ -38,12 +39,12 @@ def alignHProj(image, out_file_path):
             max_amplitude = amplitude
             max_amplitude_angle = x
 
-    final_image = transform.rotate(image, max_amplitude_angle, resize=True, preserve_range=True)
-    final_image_for_pyplot = abs(final_image - 1)
+    final_image = abs(image - 1)
+    final_image = misc.imrotate(final_image, max_amplitude_angle, interp="bicubic")
 
     print()
     print("Salvando arquivo", out_file_path, "...")
-    io.imsave(out_file_path, img_as_uint(final_image_for_pyplot))
+    io.imwrite(out_file_path, final_image, "PNG-PIL", compress_level=0, optimize=False)
 
     return 0
 
@@ -62,15 +63,14 @@ def alignHoughTransf(image, out_file_path):
 
     rotation_number = statistics.median(deg_angles)
 
-    final_image = transform.rotate(image, rotation_number, resize=True, preserve_range=True)
-    final_image_for_pyplot = abs(final_image - 1)
+    final_image = abs(image - 1)
+    final_image = misc.imrotate(final_image, rotation_number, interp="bicubic")
 
     print()
     print("Salvando arquivo", out_file_path, "...")
-    io.imsave(out_file_path, img_as_uint(final_image_for_pyplot))
+    io.imwrite(out_file_path, final_image, "PNG-PIL", compress_level=0, optimize=False)
 
     return 0
-
 
 #-----------------------------------------------------------------------------------------
 
@@ -84,7 +84,7 @@ with warnings.catch_warnings():
 
     print("Lendo arquivo", file_path, "...")
 
-    image = misc.imread(file_path, True)
+    image = io.imread(file_path, "PNG-PIL", as_gray=True)
 
     threshold = filters.threshold_yen(image)
 
