@@ -1,0 +1,10 @@
+Our last argument is how we want to approximate the
+contour. We use cv2.CHAIN_APPRD SIMPLE to compress
+horizontal, vertical, and diagonal segments into their end-
+points only This saves both computation and memory. if
+
+we wanted all the points along the contour, without com~
+pression/ we can pass in CV? . CHAINJFPRULNUNE; however,
+be Very sparing when using this function. Retrieving all
+points along a contour is often Lumecessary and is wasteful
+of resources

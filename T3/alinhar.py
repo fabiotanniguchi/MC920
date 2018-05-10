@@ -11,6 +11,8 @@ import sys as s
 
 import numpy as np
 
+import pytesseract as ocr
+
 from skimage import feature
 from skimage import filters
 from skimage import segmentation
@@ -40,6 +42,7 @@ def alignHProj(image, out_file_path):
                 max_amplitude_angle = x
 
         final_image = abs(image - 1)
+        final_image = final_image * 255
         final_image = transform.rotate(final_image, max_amplitude_angle, resize=True, order=5, clip=False, preserve_range=True)
 
         #plt.imshow(final_image, cmap="gray", vmin=0, vmax=1)
@@ -48,6 +51,12 @@ def alignHProj(image, out_file_path):
         print()
         print("Salvando arquivo", out_file_path, "...")
         io.imwrite(out_file_path, final_image, "PNG-PIL", compress_level=0, optimize=False)
+
+        final_text = ocr.image_to_string(final_image)
+
+        file = open(file_path + "text_result_hzpj.txt", "w")
+        file.writelines(final_text)
+        file.close()
 
     return 0
 
@@ -76,6 +85,12 @@ def alignHoughTransf(image, out_file_path):
         print("Salvando arquivo", out_file_path, "...")
         io.imwrite(out_file_path, final_image, "PNG-PIL", compress_level=0, optimize=False)
 
+        final_text = ocr.image_to_string(final_image)
+
+        file = open(file_path + "text_result_hough.txt", "w")
+        file.writelines(final_text)
+        file.close()
+
     return 0
 
 #-----------------------------------------------------------------------------------------
@@ -88,6 +103,12 @@ out_file_path = s.argv[3]
 print("Lendo arquivo", file_path, "...")
 
 image = io.imread(file_path, "PNG-PIL", as_gray=True)
+
+text = ocr.image_to_string(image)
+
+file = open(file_path+"text.txt","w")
+file.writelines(text)
+file.close()
 
 threshold = filters.threshold_local(image, 17, offset=10)
 
