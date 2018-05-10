@@ -1,0 +1,10 @@
+Our last argument is how we want to approximate the
+contour. We use chCi-IAINJFFRDLSIMPLE to compress
+horizuntai, vertical, and diagonal segments into their end-
+points only. This saves both computation and memory. if
+
+we wanted all the points along the contour, without comA
+pression, we can pass in cv2.CHAIN_APPRDX_NDNE; however,
+be very sparing when using this function. Retrieving all
+points along a contour is often unnecessary and is wasteful
+of resources.

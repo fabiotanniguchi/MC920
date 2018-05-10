@@ -79,6 +79,7 @@ def alignHoughTransf(image, out_file_path):
         rotation_number = statistics.median(deg_angles)
 
         final_image = abs(image - 1)
+        final_image = final_image * 255
         final_image = transform.rotate(final_image, rotation_number, resize=True, order=5, clip=False, preserve_range=True)
 
         print()
