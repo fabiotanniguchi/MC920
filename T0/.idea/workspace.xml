@@ -17,8 +17,8 @@
       <file leaf-file-name="t4.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../T4/t4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+            <state relative-caret-position="493">
+              <caret line="186" column="55" lean-forward="true" selection-start-line="186" selection-start-column="55" selection-end-line="186" selection-end-column="55" />
               <folding>
                 <element signature="e#249#269#0" expanded="true" />
               </folding>
@@ -114,7 +114,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.T4_nearest">
+  <component name="RunManager" selected="Python.T4_bicubic">
     <configuration name="T2_codificar" type="PythonConfigurationType" factoryName="Python">
       <module name="T2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -457,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527525216934</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Nearest Interpolation">
+      <created>1527540726947</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1527540726947</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -502,7 +509,8 @@
     <MESSAGE value="Good practices" />
     <MESSAGE value="Defined execution structure" />
     <MESSAGE value="Image Rotation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Image Rotation" />
+    <MESSAGE value="Nearest Interpolation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nearest Interpolation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -510,26 +518,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../T3/alinhar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1649">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
-          <folding>
-            <element signature="e#249#269#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../T1/t1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="99" column="47" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="47" />
-          <folding>
-            <element signature="e#249#264#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../T3/alinhar.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1003">
@@ -889,10 +877,16 @@
     <entry file="file://$PROJECT_DIR$/../T4/house_transf.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/../T4/house_transf_billinear.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../T4/house_transf_nearest.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/../T4/t4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+        <state relative-caret-position="493">
+          <caret line="186" column="55" lean-forward="true" selection-start-line="186" selection-start-column="55" selection-end-line="186" selection-end-column="55" />
           <folding>
             <element signature="e#249#269#0" expanded="true" />
           </folding>

@@ -20,13 +20,6 @@ import sys as s
 #-----------------------------------------------------------------------------------------
 
 
-# x' = x cos(theta) - y sin(theta)
-# y' = x sin(theta) + y cos(theta)
-
-
-#-----------------------------------------------------------------------------------------
-
-
 def rotate(image_origin, angle):
     angle_radians = m.radians(angle * (-1))
     new_positions = np.zeros( (image_origin.shape[0], image_origin.shape[1], 2) )
@@ -79,7 +72,7 @@ def nearest_pixel(i, j, image, scale_factor_x, scale_factor_y):
 
         minimum = min( (diff1, diff2, diff3, diff4) )
 
-        if(diff1 == diff2 == diff3 == diff4 == s.maxsize):
+        if diff1 == diff2 == diff3 == diff4 == s.maxsize:
             return 0
         if diff1 == minimum:
             return image[round(old_i), round(old_j)]
@@ -110,7 +103,8 @@ def nearest_interpolation(image, out_file_path, angle, scale_factor_x, scale_fac
     #plt.imshow(result_image, cmap="gray", vmin=0, vmax=255)
     #plt.show()
 
-    print("Saving file", file_path, "...")
+    print()
+    print("Saving file", out_file_path, "...")
     plt.imsave(out_file_path, result_image, cmap="gray", vmin=0, vmax=255)
     print("Saved!")
     print()
@@ -122,15 +116,88 @@ def nearest_interpolation(image, out_file_path, angle, scale_factor_x, scale_fac
 #-----------------------------------------------------------------------------------------
 
 
-def billinear_interpolation(image, out_file_path, angle, scale_factor_x, scale_factor_y):
+def bilinear_interpolation(image, out_file_path, angle, scale_factor_x, scale_factor_y):
     rotated_image = rotate(image, angle)
 
+    dim_x = round(rotated_image.shape[0] * scale_factor_x)
+    dim_y = round(rotated_image.shape[1] * scale_factor_y)
+
+    result_image = np.zeros((dim_x, dim_y))
+
+    for (i, j), value in np.ndenumerate(result_image):
+        if m.isclose(float(scale_factor_x), float(1.0)) & m.isclose(float(scale_factor_y), float(1.0)):
+            result_image[i,j] = rotated_image[i,j]
+        else:
+            old_i = max(min(i / scale_factor_x, rotated_image.shape[0]), 0)
+            old_j = max(min(j / scale_factor_y, rotated_image.shape[1]), 0)
+
+            weighted_sum = 0
+            weight_sum = 0
+
+            for a in range(0, 1):
+                for b in range(0,1):
+                    if 0 <= round(old_i + a) < rotated_image.shape[0] and 0 <= round(old_j + b) < rotated_image.shape[1]:
+                        diff1_x = abs(i - round(old_i + a))
+                        diff1_y = abs(j - round(old_j + b))
+                        diff1 = m.sqrt(m.pow(diff1_x, 2) + m.pow(diff1_y, 2))
+                        weighted_sum = weighted_sum + diff1 * rotated_image[round(old_i + a), round(old_j + b)]
+                        weight_sum = weight_sum + diff1
+
+            if weight_sum > 0:
+                weighted_sum = weighted_sum / weight_sum
+                result_image[i,j] = weighted_sum
+
+    print()
+    print("Saving file", out_file_path, "...")
+    plt.imsave(out_file_path, result_image, cmap="gray", vmin=0, vmax=255)
+    print("Saved!")
+    print()
+    print("END")
+    print()
+    print()
 
 #-----------------------------------------------------------------------------------------
 
 
 def bicubic_interpolation(image, out_file_path, angle, scale_factor_x, scale_factor_y):
     rotated_image = rotate(image, angle)
+
+    dim_x = round(rotated_image.shape[0] * scale_factor_x)
+    dim_y = round(rotated_image.shape[1] * scale_factor_y)
+
+    result_image = np.zeros((dim_x, dim_y))
+
+    for (i, j), value in np.ndenumerate(result_image):
+        if m.isclose(float(scale_factor_x), float(1.0)) & m.isclose(float(scale_factor_y), float(1.0)):
+            result_image[i,j] = rotated_image[i,j]
+        else:
+            old_i = max(min(i / scale_factor_x, rotated_image.shape[0]), 0)
+            old_j = max(min(j / scale_factor_y, rotated_image.shape[1]), 0)
+
+            weighted_sum = 0
+            weight_sum = 0
+
+            for a in range(-1, 2):
+                for b in range(-1,2):
+                    if 0 <= round(old_i + a) < rotated_image.shape[0] and 0 <= round(old_j + b) < rotated_image.shape[1]:
+                        diff1_x = abs(i - round(old_i + a))
+                        diff1_y = abs(j - round(old_j + b))
+                        diff1 = m.sqrt(m.pow(diff1_x, 2) + m.pow(diff1_y, 2))
+                        weighted_sum = weighted_sum + diff1 * rotated_image[round(old_i + a), round(old_j + b)]
+                        weight_sum = weight_sum + diff1
+
+            if weight_sum > 0:
+                weighted_sum = weighted_sum / weight_sum
+                result_image[i,j] = weighted_sum
+
+    print()
+    print("Saving file", out_file_path, "...")
+    plt.imsave(out_file_path, result_image, cmap="gray", vmin=0, vmax=255)
+    print("Saved!")
+    print()
+    print("END")
+    print()
+    print()
 
 
 #-----------------------------------------------------------------------------------------
@@ -147,7 +214,7 @@ def resolve_execution_sfxy(image, out_file_path, method, angle, scale_factor_x, 
     if method == "1":
         nearest_interpolation(image, out_file_path, angle, scale_factor_x, scale_factor_y)
     elif method == "2":
-        billinear_interpolation(image, out_file_path, angle, scale_factor_x, scale_factor_y)
+        bilinear_interpolation(image, out_file_path, angle, scale_factor_x, scale_factor_y)
     elif method == "3":
         bicubic_interpolation(image, out_file_path, angle, scale_factor_x, scale_factor_y)
     elif method == "4":
@@ -184,9 +251,12 @@ scale_factor = -1.0
 x = -1.0
 y = -1.0
 
+print()
+
 if len(s.argv) == 6:
     scale_factor = float(s.argv[5])
     print("Using scale factor", scale_factor)
+    print()
 elif len(s.argv) == 7:
     x = float(s.argv[5])
     y = float(s.argv[6])
