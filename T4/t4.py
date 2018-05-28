@@ -44,22 +44,20 @@ def nearest_interpolation(image, out_file_path, angle, scale_factor_x, scale_fac
     plt.imshow(rotated_image, cmap="gray", vmin=0, vmax=255)
     plt.show()
 
-    return
-
 #-----------------------------------------------------------------------------------------
 
 def billinear_interpolation(image, out_file_path, angle, scale_factor_x, scale_factor_y):
-    return
+    rotated_image = rotate(image, angle)
 
 #-----------------------------------------------------------------------------------------
 
 def bicubic_interpolation(image, out_file_path, angle, scale_factor_x, scale_factor_y):
-    return
+    rotated_image = rotate(image, angle)
 
 #-----------------------------------------------------------------------------------------
 
 def lagrange_interpolation(image, out_file_path, angle, scale_factor_x, scale_factor_y):
-    return
+    rotated_image = rotate(image, angle)
 
 #-----------------------------------------------------------------------------------------
 
