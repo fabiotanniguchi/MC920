@@ -6,14 +6,44 @@
 #-----------------------------------------------------------------------------------------
 
 import imageio as io
+import math as m
+
+from matplotlib import pyplot as plt
+
+import numpy as np
 
 import sys as s
 
-import scipy as sp
+#-----------------------------------------------------------------------------------------
+
+# x' = x cos(theta) - y sin(theta)
+# y' = x sin(theta) + y cos(theta)
+
+#-----------------------------------------------------------------------------------------
+
+def rotate(image_origin, angle):
+    angle_radians = m.radians(angle)
+    new_positions = np.zeros( (image_origin.shape[0], image_origin.shape[1], 2) )
+
+    for (i, j), value in np.ndenumerate(image_origin):
+        new_positions[i, j, 0] = max(min(round((i * m.cos(angle_radians)) - (j * m.sin(angle_radians))), image_origin.shape[0]-1), 0)
+        new_positions[i, j, 1] = max(min(round((i * m.sin(angle_radians)) + (j * m.cos(angle_radians))), image_origin.shape[1]-1), 0)
+
+    image_result = np.zeros(np.shape(image_origin))
+
+    for (i, j), value in np.ndenumerate(image_origin):
+        image_result[i, j] = image_origin[int(new_positions[i, j, 0]), int(new_positions[i, j, 1])]
+
+    return image_result
 
 #-----------------------------------------------------------------------------------------
 
 def nearest_interpolation(image, out_file_path, angle, scale_factor_x, scale_factor_y):
+    rotated_image = rotate(image, angle)
+
+    plt.imshow(rotated_image, cmap="gray", vmin=0, vmax=255)
+    plt.show()
+
     return
 
 #-----------------------------------------------------------------------------------------
@@ -63,21 +93,23 @@ def resolve_execution_sf(image, out_file_path, method, angle, scale_factor):
 file_path = s.argv[1]
 out_file_path = s.argv[2]
 method = s.argv[3]
-angle = s.argv[4]
+angle = float(s.argv[4])
 scale_factor = -1.0
 x = -1.0
 y = -1.0
 
 if len(s.argv) == 6:
-    scale_factor = s.argv[5]
+    scale_factor = float(s.argv[5])
+    print("Using scale factor", scale_factor)
 elif len(s.argv) == 7:
-    x = s.argv[5]
-    y = s.argv[6]
+    x = float(s.argv[5])
+    y = float(s.argv[6])
+    print("Using dimensions", x, " and ",y)
 else:
     print("Cannot resolve execution using this combination of parameters")
     exit(-1)
 
-print("Lendo arquivo", file_path, "...")
+print("Loading file", file_path, "...")
 
 image = io.imread(file_path, "PNG-PIL", as_gray=True)
 
