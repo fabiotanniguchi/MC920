@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3038d180-0361-449b-8256-33175812a479" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../T4/.idea/T4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../T4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../T4/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../T4/baboon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../T4/butterfly.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../T4/city.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../T4/house.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../T4/seagull.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../T4/t4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../T4/trabalho4.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/T0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/T0.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../T3/alinhar.py" beforeDir="false" afterPath="$PROJECT_DIR$/../T3/alinhar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T4/t4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../T4/t4.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,7 +18,19 @@
         <entry file="file://$PROJECT_DIR$/../T1/t1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
-              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+              <caret line="108" selection-start-line="108" selection-end-line="108" />
+              <folding>
+                <element signature="e#249#264#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codificar.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../T2/codificar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
               <folding>
                 <element signature="e#249#264#0" expanded="true" />
               </folding>
@@ -41,8 +41,8 @@
       <file leaf-file-name="alinhar.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../T3/alinhar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="103" selection-start-line="103" selection-end-line="105" selection-end-column="53" />
+            <state relative-caret-position="-357">
+              <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
               <folding>
                 <element signature="e#249#269#0" expanded="true" />
               </folding>
@@ -53,8 +53,8 @@
       <file leaf-file-name="t4.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../T4/t4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="306">
+              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
               <folding>
                 <element signature="e#249#269#0" expanded="true" />
               </folding>
@@ -108,6 +108,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,11 +120,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../T4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../T4/t4.py" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -146,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.T3_Horizontal">
+  <component name="RunManager" selected="Python.T4">
     <configuration name="T2_codificar" type="PythonConfigurationType" factoryName="Python">
       <module name="T2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,6 +219,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="T4" type="PythonConfigurationType" factoryName="Python">
+      <module name="T4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../T4" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../T4/t4.py" />
+      <option name="PARAMETERS" value="&quot;D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\house.png&quot; &quot;D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\house_transf.png&quot; 1 0 1" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="t0" type="PythonConfigurationType" factoryName="Python">
       <module name="T0" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -257,6 +275,7 @@
     </configuration>
     <list>
       <item itemvalue="Python.T3_Horizontal" />
+      <item itemvalue="Python.T4" />
       <item itemvalue="Python.T3_Hough" />
       <item itemvalue="Python.T2_codificar" />
       <item itemvalue="Python.T2_decodificar" />
@@ -378,19 +397,33 @@
       <option name="project" value="LOCAL" />
       <updated>1525835200484</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Adding T4 initial files">
+      <created>1527450666602</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1527450666602</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Good practices">
+      <created>1527451060723</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1527451060723</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50572914" side_tool="true" visible="true" weight="0.24604012" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50625" side_tool="true" visible="true" weight="0.24604012" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49947917" weight="0.1689546" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49427083" weight="0.24604012" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49375" visible="true" weight="0.24604012" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -401,7 +434,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32946146" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4984375" weight="0.32946146" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -419,7 +452,9 @@
     <MESSAGE value="Adding Hough Method" />
     <MESSAGE value="Agora sim com resultados bons" />
     <MESSAGE value="Some adjusts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some adjusts" />
+    <MESSAGE value="Adding T4 initial files" />
+    <MESSAGE value="Good practices" />
+    <option name="LAST_COMMIT_MESSAGE" value="Good practices" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -427,16 +462,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../T3/alinhar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1989">
-          <caret line="132" selection-start-line="132" selection-end-line="132" />
-          <folding>
-            <element signature="e#249#269#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../T1/t1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1683">
@@ -720,13 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../T2/codificar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Anaconda3/Lib/site-packages/skimage/filters/thresholding.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -797,30 +815,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../T3/alinhar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="103" selection-start-line="103" selection-end-line="105" selection-end-column="53" />
-          <folding>
-            <element signature="e#249#269#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../T1/t1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
-          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
           <folding>
             <element signature="e#249#264#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../T2/codificar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="e#249#264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../T3/alinhar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="e#249#269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../T4/baboon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/../T4/t4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="306">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
           <folding>
             <element signature="e#249#269#0" expanded="true" />
           </folding>
