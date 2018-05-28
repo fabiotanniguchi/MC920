@@ -159,6 +159,27 @@ def bilinear_interpolation(image, out_file_path, angle, scale_factor_x, scale_fa
 #-----------------------------------------------------------------------------------------
 
 
+def calc_r(s):
+    v1 = m.pow(calc_p(s + 2), 3)
+    v2 = m.pow(calc_p(s + 1), 3)
+    v3 = m.pow(calc_p(s), 3)
+    v4 = m.pow(calc_p(s - 1), 3)
+
+    return (1 / 6) * (v1 - 4 * v2 + 6 * v3 - 4 * v4)
+
+
+#-----------------------------------------------------------------------------------------
+
+
+def calc_p(t):
+    if t > 0:
+        return t
+    return 0
+
+
+#-----------------------------------------------------------------------------------------
+
+
 def bicubic_interpolation(image, out_file_path, angle, scale_factor_x, scale_factor_y):
     rotated_image = rotate(image, angle)
 
@@ -171,24 +192,20 @@ def bicubic_interpolation(image, out_file_path, angle, scale_factor_x, scale_fac
         if m.isclose(float(scale_factor_x), float(1.0)) & m.isclose(float(scale_factor_y), float(1.0)):
             result_image[i,j] = rotated_image[i,j]
         else:
-            old_i = max(min(i / scale_factor_x, rotated_image.shape[0]), 0)
-            old_j = max(min(j / scale_factor_y, rotated_image.shape[1]), 0)
+            x = int(i / scale_factor_x)
+            y = int(j / scale_factor_y)
+            dx = (i / scale_factor_x) - x
+            dy = (j / scale_factor_y) - y
 
-            weighted_sum = 0
-            weight_sum = 0
+            sum_value = 0
 
-            for a in range(-1, 2):
-                for b in range(-1,2):
-                    if 0 <= round(old_i + a) < rotated_image.shape[0] and 0 <= round(old_j + b) < rotated_image.shape[1]:
-                        diff1_x = abs(i - round(old_i + a))
-                        diff1_y = abs(j - round(old_j + b))
-                        diff1 = m.sqrt(m.pow(diff1_x, 2) + m.pow(diff1_y, 2))
-                        weighted_sum = weighted_sum + diff1 * rotated_image[round(old_i + a), round(old_j + b)]
-                        weight_sum = weight_sum + diff1
+            for a in range(-1, 3):
+                for b in range(-1, 3):
+                    normalized_x = min(x + a, rotated_image.shape[0] - 1)
+                    normalized_y = min(y + b, rotated_image.shape[1] - 1)
+                    sum_value = sum_value + rotated_image[normalized_x, normalized_y] * calc_r(a - dx) * calc_r(dy - b)
 
-            if weight_sum > 0:
-                weighted_sum = weighted_sum / weight_sum
-                result_image[i,j] = weighted_sum
+            result_image[i, j] = sum_value
 
     print()
     print("Saving file", out_file_path, "...")
