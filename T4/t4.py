@@ -1,9 +1,9 @@
-#-----------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------------
 # MC920 - TRABALHO 4
 #
 # FABIO TAKAHASHI TANNIGUCHI - RA 145980
 #
-#-----------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------------
 
 
 import imageio as io
@@ -17,7 +17,7 @@ import numpy as np
 import sys as s
 
 
-#-----------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------------
 
 
 def rotate(image_origin, angle):
@@ -36,7 +36,7 @@ def rotate(image_origin, angle):
     return image_result
 
 
-#-----------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------------
 
 
 def nearest_pixel(i, j, image, scale_factor_x, scale_factor_y):
@@ -83,7 +83,7 @@ def nearest_pixel(i, j, image, scale_factor_x, scale_factor_y):
         return image[round(old_i + 1), round(old_j + 1)]
 
 
-#-----------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------------
 
 
 def nearest_interpolation(image, out_file_path, angle, scale_factor_x, scale_factor_y):
@@ -113,7 +113,7 @@ def nearest_interpolation(image, out_file_path, angle, scale_factor_x, scale_fac
     print()
 
 
-#-----------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------------
 
 
 def bilinear_interpolation(image, out_file_path, angle, scale_factor_x, scale_factor_y):
@@ -156,7 +156,7 @@ def bilinear_interpolation(image, out_file_path, angle, scale_factor_x, scale_fa
     print()
     print()
 
-#-----------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------------
 
 
 def calc_r(s):
@@ -168,7 +168,7 @@ def calc_r(s):
     return (1 / 6) * (v1 - 4 * v2 + 6 * v3 - 4 * v4)
 
 
-#-----------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------------
 
 
 def calc_p(t):
@@ -177,7 +177,7 @@ def calc_p(t):
     return 0
 
 
-#-----------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------------
 
 
 def bicubic_interpolation(image, out_file_path, angle, scale_factor_x, scale_factor_y):
@@ -217,14 +217,72 @@ def bicubic_interpolation(image, out_file_path, angle, scale_factor_x, scale_fac
     print()
 
 
-#-----------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------------
+
+
+def lagrange_function(dx, x, y, n, image):
+    first_part = 0
+    second_part = 0
+    third_part = 0
+    fourth_part = 0
+
+    if 0 <= (x-1) < image.shape[0] and 0 <= (y+n-2) < image.shape[1]:
+        first_part = (-1) * dx * (dx-2) * image[x-1, y+n-2]
+
+    if 0 <= (x) < image.shape[0] and 0 <= (y+n-2) < image.shape[1]:
+        second_part = (dx+1) * (dx-1) * (dx-2) * image[x, y+n-2]
+
+    if 0 <= (x+1) < image.shape[0] and 0 <= (y+n-2) < image.shape[1]:
+        third_part = (-1) * dx * (dx+1) * (dx-2) * image[x+1, y+n-2]
+
+    if 0 <= (x+2) < image.shape[0] and 0 <= (y+n-2) < image.shape[1]:
+        fourth_part = dx * (dx+1) * (dx-1) * image[x+2, y+n-2]
+
+    return (first_part/6) + (second_part/2) + (third_part/2) + (fourth_part/6)
+
+
+# -----------------------------------------------------------------------------------------
 
 
 def lagrange_interpolation(image, out_file_path, angle, scale_factor_x, scale_factor_y):
     rotated_image = rotate(image, angle)
 
+    dim_x = round(rotated_image.shape[0] * scale_factor_x)
+    dim_y = round(rotated_image.shape[1] * scale_factor_y)
 
-#-----------------------------------------------------------------------------------------
+    result_image = np.zeros((dim_x, dim_y))
+
+    for (i, j), value in np.ndenumerate(result_image):
+        if m.isclose(float(scale_factor_x), float(1.0)) & m.isclose(float(scale_factor_y), float(1.0)):
+            result_image[i,j] = rotated_image[i,j]
+        else:
+            x = int(i / scale_factor_x)
+            y = int(j / scale_factor_y)
+            dx = (i / scale_factor_x) - x
+            dy = (j / scale_factor_y) - y
+
+            ls = np.zeros((4))
+            for a in range(-1, 3):
+                ls[a+1] = lagrange_function(dx, x, y, a, rotated_image)
+
+            first_part = (-1) * dy * (dy-1) * (dy-2) * ls[0]
+            second_part = (dy+1) * (dy-1) * (dy-2) * ls[1]
+            third_part = (-1) * dy * (dy+1) * (dy-2) * ls[2]
+            fourth_part = dy * (dy+1) * (dy-1) * ls[3]
+
+            result_image[i,j] = (first_part/6) + (second_part/2) + (third_part/2) + (fourth_part/6)
+
+    print()
+    print("Saving file", out_file_path, "...")
+    plt.imsave(out_file_path, result_image, cmap="gray", vmin=0, vmax=255)
+    print("Saved!")
+    print()
+    print("END")
+    print()
+    print()
+
+
+# -----------------------------------------------------------------------------------------
 
 
 def resolve_execution_sfxy(image, out_file_path, method, angle, scale_factor_x, scale_factor_y):
@@ -241,7 +299,7 @@ def resolve_execution_sfxy(image, out_file_path, method, angle, scale_factor_x, 
         exit(-1)
 
 
-#-----------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------------
 
 
 def resolve_execution_xy(image, out_file_path, method, angle, x, y):
@@ -250,14 +308,14 @@ def resolve_execution_xy(image, out_file_path, method, angle, x, y):
     resolve_execution_sfxy(image, out_file_path, method, angle, scale_factor_x, scale_factor_y)
 
 
-#-----------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------------
 
 
 def resolve_execution_sf(image, out_file_path, method, angle, scale_factor):
     resolve_execution_sfxy(image, out_file_path, method, angle, scale_factor, scale_factor)
 
 
-#-----------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------------
 
 
 file_path = s.argv[1]
