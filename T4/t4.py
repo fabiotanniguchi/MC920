@@ -5,8 +5,11 @@
 #
 # -----------------------------------------------------------------------------------------
 
+import asyncio
 
 import imageio as io
+
+import itertools
 
 import math as m
 
@@ -244,6 +247,27 @@ def lagrange_function(dx, x, y, n, image):
 # -----------------------------------------------------------------------------------------
 
 
+def lagrange_interpolation_piece(i, j, scale_factor_x, scale_factor_y, rotated_image):
+    x = int(i / scale_factor_x)
+    y = int(j / scale_factor_y)
+    dx = (i / scale_factor_x) - x
+    dy = (j / scale_factor_y) - y
+
+    ls = np.zeros((4))
+    for a in range(-1, 3):
+        ls[a + 1] = lagrange_function(dx, x, y, a, rotated_image)
+
+    first_part = (-1) * dy * (dy - 1) * (dy - 2) * ls[0]
+    second_part = (dy + 1) * (dy - 1) * (dy - 2) * ls[1]
+    third_part = (-1) * dy * (dy + 1) * (dy - 2) * ls[2]
+    fourth_part = dy * (dy + 1) * (dy - 1) * ls[3]
+
+    return (first_part / 6) + (second_part / 2) + (third_part / 2) + (fourth_part / 6)
+
+
+# -----------------------------------------------------------------------------------------
+
+
 def lagrange_interpolation(image, out_file_path, angle, scale_factor_x, scale_factor_y):
     rotated_image = rotate(image, angle)
 
@@ -252,10 +276,10 @@ def lagrange_interpolation(image, out_file_path, angle, scale_factor_x, scale_fa
 
     result_image = np.zeros((dim_x, dim_y))
 
-    for (i, j), value in np.ndenumerate(result_image):
-        if m.isclose(float(scale_factor_x), float(1.0)) & m.isclose(float(scale_factor_y), float(1.0)):
-            result_image[i,j] = rotated_image[i,j]
-        else:
+    if m.isclose(float(scale_factor_x), float(1.0)) & m.isclose(float(scale_factor_y), float(1.0)):
+        result_image = rotated_image
+    else:
+        for (i, j), value in np.ndenumerate(result_image):
             x = int(i / scale_factor_x)
             y = int(j / scale_factor_y)
             dx = (i / scale_factor_x) - x
