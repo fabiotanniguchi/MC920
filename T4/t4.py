@@ -106,14 +106,7 @@ def nearest_interpolation(image, out_file_path, angle, scale_factor_x, scale_fac
     #plt.imshow(result_image, cmap="gray", vmin=0, vmax=255)
     #plt.show()
 
-    print()
-    print("Saving file", out_file_path, "...")
-    plt.imsave(out_file_path, result_image, cmap="gray", vmin=0, vmax=255)
-    print("Saved!")
-    print()
-    print("END")
-    print()
-    print()
+    save_output_image(out_file_path, result_image)
 
 
 # -----------------------------------------------------------------------------------------
@@ -150,14 +143,7 @@ def bilinear_interpolation(image, out_file_path, angle, scale_factor_x, scale_fa
                 weighted_sum = weighted_sum / weight_sum
                 result_image[i,j] = weighted_sum
 
-    print()
-    print("Saving file", out_file_path, "...")
-    plt.imsave(out_file_path, result_image, cmap="gray", vmin=0, vmax=255)
-    print("Saved!")
-    print()
-    print("END")
-    print()
-    print()
+    save_output_image(out_file_path, result_image)
 
 # -----------------------------------------------------------------------------------------
 
@@ -210,14 +196,7 @@ def bicubic_interpolation(image, out_file_path, angle, scale_factor_x, scale_fac
 
             result_image[i, j] = sum_value
 
-    print()
-    print("Saving file", out_file_path, "...")
-    plt.imsave(out_file_path, result_image, cmap="gray", vmin=0, vmax=255)
-    print("Saved!")
-    print()
-    print("END")
-    print()
-    print()
+    save_output_image(out_file_path, result_image)
 
 
 # -----------------------------------------------------------------------------------------
@@ -296,6 +275,13 @@ def lagrange_interpolation(image, out_file_path, angle, scale_factor_x, scale_fa
 
             result_image[i,j] = (first_part/6) + (second_part/2) + (third_part/2) + (fourth_part/6)
 
+    save_output_image(out_file_path, result_image)
+
+
+# -----------------------------------------------------------------------------------------
+
+
+def save_output_image(out_file_path, result_image):
     print()
     print("Saving file", out_file_path, "...")
     plt.imsave(out_file_path, result_image, cmap="gray", vmin=0, vmax=255)
