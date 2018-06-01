@@ -23,7 +23,7 @@ import sys as s
 # -----------------------------------------------------------------------------------------
 
 
-def rotate(image_origin, angle):
+def rotate(image_origin, angle, out_file_path):
     angle_radians = m.radians(angle * (-1))
     new_positions = np.zeros( (image_origin.shape[0], image_origin.shape[1], 2) )
 
@@ -36,7 +36,7 @@ def rotate(image_origin, angle):
     for (i, j), value in np.ndenumerate(image_origin):
         image_result[i, j] = image_origin[int(new_positions[i, j, 0]), int(new_positions[i, j, 1])]
 
-    return image_result
+    save_output_image(out_file_path, image_result)
 
 
 # -----------------------------------------------------------------------------------------
@@ -89,19 +89,17 @@ def nearest_pixel(i, j, image, scale_factor_x, scale_factor_y):
 # -----------------------------------------------------------------------------------------
 
 
-def nearest_interpolation(image, out_file_path, angle, scale_factor_x, scale_factor_y):
-    rotated_image = rotate(image, angle)
-
+def nearest_interpolation(image, out_file_path, scale_factor_x, scale_factor_y):
     #plt.imshow(rotated_image, cmap="gray", vmin=0, vmax=255)
     #plt.show()
 
-    dim_x = round(rotated_image.shape[0] * scale_factor_x)
-    dim_y = round(rotated_image.shape[1] * scale_factor_y)
+    dim_x = round(image.shape[0] * scale_factor_x)
+    dim_y = round(image.shape[1] * scale_factor_y)
 
     result_image = np.zeros( (dim_x, dim_y) )
 
     for (i, j), value in np.ndenumerate(result_image):
-        result_image[i,j] = nearest_pixel(i, j, rotated_image, scale_factor_x, scale_factor_y)
+        result_image[i,j] = nearest_pixel(i, j, image, scale_factor_x, scale_factor_y)
 
     #plt.imshow(result_image, cmap="gray", vmin=0, vmax=255)
     #plt.show()
@@ -112,31 +110,29 @@ def nearest_interpolation(image, out_file_path, angle, scale_factor_x, scale_fac
 # -----------------------------------------------------------------------------------------
 
 
-def bilinear_interpolation(image, out_file_path, angle, scale_factor_x, scale_factor_y):
-    rotated_image = rotate(image, angle)
-
-    dim_x = round(rotated_image.shape[0] * scale_factor_x)
-    dim_y = round(rotated_image.shape[1] * scale_factor_y)
+def bilinear_interpolation(image, out_file_path, scale_factor_x, scale_factor_y):
+    dim_x = round(image.shape[0] * scale_factor_x)
+    dim_y = round(image.shape[1] * scale_factor_y)
 
     result_image = np.zeros((dim_x, dim_y))
 
     for (i, j), value in np.ndenumerate(result_image):
         if m.isclose(float(scale_factor_x), float(1.0)) & m.isclose(float(scale_factor_y), float(1.0)):
-            result_image[i,j] = rotated_image[i,j]
+            result_image[i,j] = image[i,j]
         else:
-            old_i = max(min(i / scale_factor_x, rotated_image.shape[0]), 0)
-            old_j = max(min(j / scale_factor_y, rotated_image.shape[1]), 0)
+            old_i = max(min(i / scale_factor_x, image.shape[0]), 0)
+            old_j = max(min(j / scale_factor_y, image.shape[1]), 0)
 
             weighted_sum = 0
             weight_sum = 0
 
             for a in range(0, 1):
                 for b in range(0,1):
-                    if 0 <= round(old_i + a) < rotated_image.shape[0] and 0 <= round(old_j + b) < rotated_image.shape[1]:
+                    if 0 <= round(old_i + a) < image.shape[0] and 0 <= round(old_j + b) < image.shape[1]:
                         diff1_x = abs(i - round(old_i + a))
                         diff1_y = abs(j - round(old_j + b))
                         diff1 = m.sqrt(m.pow(diff1_x, 2) + m.pow(diff1_y, 2))
-                        weighted_sum = weighted_sum + diff1 * rotated_image[round(old_i + a), round(old_j + b)]
+                        weighted_sum = weighted_sum + diff1 * image[round(old_i + a), round(old_j + b)]
                         weight_sum = weight_sum + diff1
 
             if weight_sum > 0:
@@ -169,17 +165,15 @@ def calc_p(t):
 # -----------------------------------------------------------------------------------------
 
 
-def bicubic_interpolation(image, out_file_path, angle, scale_factor_x, scale_factor_y):
-    rotated_image = rotate(image, angle)
-
-    dim_x = round(rotated_image.shape[0] * scale_factor_x)
-    dim_y = round(rotated_image.shape[1] * scale_factor_y)
+def bicubic_interpolation(image, out_file_path, scale_factor_x, scale_factor_y):
+    dim_x = round(image.shape[0] * scale_factor_x)
+    dim_y = round(image.shape[1] * scale_factor_y)
 
     result_image = np.zeros((dim_x, dim_y))
 
     for (i, j), value in np.ndenumerate(result_image):
         if m.isclose(float(scale_factor_x), float(1.0)) & m.isclose(float(scale_factor_y), float(1.0)):
-            result_image[i,j] = rotated_image[i,j]
+            result_image[i,j] = image[i,j]
         else:
             x = int(i / scale_factor_x)
             y = int(j / scale_factor_y)
@@ -190,9 +184,9 @@ def bicubic_interpolation(image, out_file_path, angle, scale_factor_x, scale_fac
 
             for a in range(-1, 3):
                 for b in range(-1, 3):
-                    normalized_x = min(x + a, rotated_image.shape[0] - 1)
-                    normalized_y = min(y + b, rotated_image.shape[1] - 1)
-                    sum_value = sum_value + rotated_image[normalized_x, normalized_y] * calc_r(a - dx) * calc_r(dy - b)
+                    normalized_x = min(x + a, image.shape[0] - 1)
+                    normalized_y = min(y + b, image.shape[1] - 1)
+                    sum_value = sum_value + image[normalized_x, normalized_y] * calc_r(a - dx) * calc_r(dy - b)
 
             result_image[i, j] = sum_value
 
@@ -247,16 +241,14 @@ def lagrange_interpolation_piece(i, j, scale_factor_x, scale_factor_y, rotated_i
 # -----------------------------------------------------------------------------------------
 
 
-def lagrange_interpolation(image, out_file_path, angle, scale_factor_x, scale_factor_y):
-    rotated_image = rotate(image, angle)
-
-    dim_x = round(rotated_image.shape[0] * scale_factor_x)
-    dim_y = round(rotated_image.shape[1] * scale_factor_y)
+def lagrange_interpolation(image, out_file_path, scale_factor_x, scale_factor_y):
+    dim_x = round(image.shape[0] * scale_factor_x)
+    dim_y = round(image.shape[1] * scale_factor_y)
 
     result_image = np.zeros((dim_x, dim_y))
 
     if m.isclose(float(scale_factor_x), float(1.0)) & m.isclose(float(scale_factor_y), float(1.0)):
-        result_image = rotated_image
+        result_image = image
     else:
         for (i, j), value in np.ndenumerate(result_image):
             x = int(i / scale_factor_x)
@@ -266,7 +258,7 @@ def lagrange_interpolation(image, out_file_path, angle, scale_factor_x, scale_fa
 
             ls = np.zeros((4))
             for a in range(-1, 3):
-                ls[a+1] = lagrange_function(dx, x, y, a, rotated_image)
+                ls[a+1] = lagrange_function(dx, x, y, a, image)
 
             first_part = (-1) * dy * (dy-1) * (dy-2) * ls[0]
             second_part = (dy+1) * (dy-1) * (dy-2) * ls[1]
@@ -295,15 +287,15 @@ def save_output_image(out_file_path, result_image):
 # -----------------------------------------------------------------------------------------
 
 
-def resolve_execution_sfxy(image, out_file_path, method, angle, scale_factor_x, scale_factor_y):
+def resolve_execution_sfxy(image, out_file_path, method, scale_factor_x, scale_factor_y):
     if method == "1":
-        nearest_interpolation(image, out_file_path, angle, scale_factor_x, scale_factor_y)
+        nearest_interpolation(image, out_file_path, scale_factor_x, scale_factor_y)
     elif method == "2":
-        bilinear_interpolation(image, out_file_path, angle, scale_factor_x, scale_factor_y)
+        bilinear_interpolation(image, out_file_path, scale_factor_x, scale_factor_y)
     elif method == "3":
-        bicubic_interpolation(image, out_file_path, angle, scale_factor_x, scale_factor_y)
+        bicubic_interpolation(image, out_file_path, scale_factor_x, scale_factor_y)
     elif method == "4":
-        lagrange_interpolation(image, out_file_path, angle, scale_factor_x, scale_factor_y)
+        lagrange_interpolation(image, out_file_path, scale_factor_x, scale_factor_y)
     else:
         print("Invalid method")
         exit(-1)
@@ -312,17 +304,17 @@ def resolve_execution_sfxy(image, out_file_path, method, angle, scale_factor_x, 
 # -----------------------------------------------------------------------------------------
 
 
-def resolve_execution_xy(image, out_file_path, method, angle, x, y):
+def resolve_execution_xy(image, out_file_path, method, x, y):
     scale_factor_x = x/image.shape[1]
     scale_factor_y = y/image.shape[0]
-    resolve_execution_sfxy(image, out_file_path, method, angle, scale_factor_x, scale_factor_y)
+    resolve_execution_sfxy(image, out_file_path, method, scale_factor_x, scale_factor_y)
 
 
 # -----------------------------------------------------------------------------------------
 
 
-def resolve_execution_sf(image, out_file_path, method, angle, scale_factor):
-    resolve_execution_sfxy(image, out_file_path, method, angle, scale_factor, scale_factor)
+def resolve_execution_sf(image, out_file_path, method, scale_factor):
+    resolve_execution_sfxy(image, out_file_path, method, scale_factor, scale_factor)
 
 
 # -----------------------------------------------------------------------------------------
@@ -331,30 +323,36 @@ def resolve_execution_sf(image, out_file_path, method, angle, scale_factor):
 file_path = s.argv[1]
 out_file_path = s.argv[2]
 method = s.argv[3]
-angle = float(s.argv[4])
+
+angle = 0.0
 scale_factor = -1.0
 x = -1.0
 y = -1.0
 
-print()
-
-if len(s.argv) == 6:
-    scale_factor = float(s.argv[5])
-    print("Using scale factor", scale_factor)
-    print()
-elif len(s.argv) == 7:
-    x = float(s.argv[5])
-    y = float(s.argv[6])
-    print("Using dimensions", x, " and ",y)
+if(method == '0'):
+    angle = float(s.argv[4])
 else:
-    print("Cannot resolve execution using this combination of parameters")
-    exit(-1)
+    print()
+    if len(s.argv) == 5:
+        scale_factor = float(s.argv[4])
+        print("Using scale factor", scale_factor)
+        print()
+    elif len(s.argv) == 6:
+        x = float(s.argv[4])
+        y = float(s.argv[5])
+        print("Using dimensions", x, " and ",y)
+    else:
+        print("Cannot resolve execution using this combination of parameters")
+        exit(-1)
 
 print("Loading file", file_path, "...")
 
 image = io.imread(file_path, "PNG-PIL", as_gray=True)
 
-if float(x) > float(0.0) and float(y) > float(0.0):
-    resolve_execution_xy(image, out_file_path, method, angle, x, y)
+if(method == '0'):
+    rotate(image, angle, out_file_path)
 else:
-    resolve_execution_sf(image, out_file_path, method, angle, scale_factor)
+    if float(x) > float(0.0) and float(y) > float(0.0):
+        resolve_execution_xy(image, out_file_path, method, x, y)
+    else:
+        resolve_execution_sf(image, out_file_path, method, scale_factor)
