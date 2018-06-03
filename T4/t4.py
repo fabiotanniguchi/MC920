@@ -5,11 +5,7 @@
 #
 # -----------------------------------------------------------------------------------------
 
-import asyncio
-
 import imageio as io
-
-import itertools
 
 import math as m
 
@@ -329,7 +325,7 @@ scale_factor = -1.0
 x = -1.0
 y = -1.0
 
-if(method == '0'):
+if method == '0':
     angle = float(s.argv[4])
 else:
     print()
@@ -340,7 +336,7 @@ else:
     elif len(s.argv) == 6:
         x = float(s.argv[4])
         y = float(s.argv[5])
-        print("Using dimensions", x, " and ",y)
+        print("Using dimensions", x, "and",y)
     else:
         print("Cannot resolve execution using this combination of parameters")
         exit(-1)
@@ -349,7 +345,7 @@ print("Loading file", file_path, "...")
 
 image = io.imread(file_path, "PNG-PIL", as_gray=True)
 
-if(method == '0'):
+if method == '0':
     rotate(image, angle, out_file_path)
 else:
     if float(x) > float(0.0) and float(y) > float(0.0):

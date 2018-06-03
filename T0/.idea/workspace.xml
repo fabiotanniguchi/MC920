@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3038d180-0361-449b-8256-33175812a479" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../T4/house_transf_bicubic.png" beforeDir="false" afterPath="$PROJECT_DIR$/../T4/house_transf_bicubic.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../T4/t4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../T4/t4.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,25 +17,13 @@
       <file leaf-file-name="t4.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../T4/t4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="194" column="36" lean-forward="true" selection-start-line="194" selection-start-column="36" selection-end-line="194" selection-end-column="36" />
+            <state relative-caret-position="289">
+              <caret line="338" column="41" selection-start-line="338" selection-start-column="41" selection-end-line="338" selection-end-column="41" />
+              <folding>
+                <element signature="e#252#272#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="house_transf_bicubic.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../T4/house_transf_bicubic.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="house_transf_nearest.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../T4/house_transf_nearest.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="house_transf_billinear.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../T4/house_transf_billinear.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -52,9 +39,11 @@
     <findStrings>
       <find>transform</find>
       <find>int(0)</find>
+      <find>#-----------------------------------------------------------------------------------------</find>
     </findStrings>
     <replaceStrings>
       <replace>0.0</replace>
+      <replace># -----------------------------------------------------------------------------------------</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -71,6 +60,7 @@
         <option value="$PROJECT_DIR$/../T2/decodificar.py" />
         <option value="$PROJECT_DIR$/../T2/codificar.py" />
         <option value="$PROJECT_DIR$/../T3/alinhar.py" />
+        <option value="$PROJECT_DIR$/../T4/batch.bat" />
         <option value="$PROJECT_DIR$/../T4/t4.py" />
       </list>
     </option>
@@ -213,7 +203,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../T4/t4.py" />
-      <option name="PARAMETERS" value="&quot;D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\house.png&quot; &quot;D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\house_transf_bicubic.png&quot; 3 25 2" />
+      <option name="PARAMETERS" value="&quot;D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\house.png&quot; &quot;D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\house_bicubic2.png&quot; 3 960 768" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -231,7 +221,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../T4/t4.py" />
-      <option name="PARAMETERS" value="&quot;D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\house.png&quot; &quot;D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\house_transf_billinear.png&quot; 2 25 2" />
+      <option name="PARAMETERS" value="&quot;D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\house.png&quot; &quot;D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\house_bilinear.png&quot; 2 2" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -249,7 +239,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../T4/t4.py" />
-      <option name="PARAMETERS" value="&quot;D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\house.png&quot; &quot;D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\house_transf_lagrange.png&quot; 4 25 2" />
+      <option name="PARAMETERS" value="&quot;D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\house.png&quot; &quot;D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\house_lagrange.png&quot; 4 2" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -267,7 +257,25 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../T4/t4.py" />
-      <option name="PARAMETERS" value="&quot;D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\house.png&quot; &quot;D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\house_transf_nearest.png&quot; 1 25 2" />
+      <option name="PARAMETERS" value="&quot;D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\house.png&quot; &quot;D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\house_nearest.png&quot; 1 2" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="T4_rotation" type="PythonConfigurationType" factoryName="Python">
+      <module name="T4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../T4" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../T4/t4.py" />
+      <option name="PARAMETERS" value="&quot;D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\house.png&quot; &quot;D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\house_rotated.png&quot; 0 25" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -314,6 +322,7 @@
       <item itemvalue="Python.T4_billinear" />
       <item itemvalue="Python.T4_bicubic" />
       <item itemvalue="Python.T4_lagrange" />
+      <item itemvalue="Python.T4_rotation" />
       <item itemvalue="Python.T3_Hough" />
       <item itemvalue="Python.T2_codificar" />
       <item itemvalue="Python.T2_decodificar" />
@@ -484,7 +493,35 @@
       <option name="project" value="LOCAL" />
       <updated>1527544792461</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Bicubic fixed">
+      <created>1527549236005</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1527549236005</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Lagrange Interpolation">
+      <created>1527609562810</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1527609562810</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Improvements">
+      <created>1527611809518</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1527611809518</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Improvements">
+      <created>1527612585050</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1527612585050</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -493,10 +530,10 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5072917" side_tool="true" visible="true" weight="0.24604012" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50885415" side_tool="true" visible="true" weight="0.24604012" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49947917" weight="0.1689546" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49270833" visible="true" weight="0.24604012" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49114582" visible="true" weight="0.24604012" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -531,7 +568,10 @@
     <MESSAGE value="Image Rotation" />
     <MESSAGE value="Nearest Interpolation" />
     <MESSAGE value="Bilinear and Bicubic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bilinear and Bicubic" />
+    <MESSAGE value="Bicubic fixed" />
+    <MESSAGE value="Lagrange Interpolation" />
+    <MESSAGE value="Improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improvements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -539,62 +579,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../T1/t1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="15" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../T3/alinhar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../T1/t1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="15" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../T3/alinhar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../T1/t1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../T3/alinhar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../T1/t1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../T3/alinhar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../T2/codificar.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1190">
@@ -735,13 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/t0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="64" column="15" lean-forward="true" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5279" />
@@ -856,19 +833,53 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../T4/house_transf.png" />
-    <entry file="file://$PROJECT_DIR$/../T4/house_transf_nearest.png">
+    <entry file="file://$PROJECT_DIR$/../T4/house_transf_billinear.png" />
+    <entry file="file://$PROJECT_DIR$/../T4/house_transf_bicubic.png" />
+    <entry file="file://D:/Anaconda3/Lib/asyncio/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-231">
+          <caret line="593" selection-start-line="593" selection-end-line="593" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/t0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="72" column="32" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../T4/house_transf_nearest.png" />
+    <entry file="file://$PROJECT_DIR$/../T4/house_transf_lagrange.png" />
+    <entry file="file://$PROJECT_DIR$/../T4/house.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../T4/house_transf_billinear.png">
+    <entry file="file://$PROJECT_DIR$/../T4/house_nearest.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../T4/house_transf_bicubic.png">
+    <entry file="file://$PROJECT_DIR$/../T4/house_bilinear.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../T4/house_bicubic.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../T4/batch.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../T4/house_bicubic2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../T4/t4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="194" column="36" lean-forward="true" selection-start-line="194" selection-start-column="36" selection-end-line="194" selection-end-column="36" />
+        <state relative-caret-position="289">
+          <caret line="338" column="41" selection-start-line="338" selection-start-column="41" selection-end-line="338" selection-end-column="41" />
+          <folding>
+            <element signature="e#252#272#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
