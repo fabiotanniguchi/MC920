@@ -301,8 +301,8 @@ def resolve_execution_sfxy(image, out_file_path, method, scale_factor_x, scale_f
 
 
 def resolve_execution_xy(image, out_file_path, method, x, y):
-    scale_factor_x = x/image.shape[1]
-    scale_factor_y = y/image.shape[0]
+    scale_factor_x = x/image.shape[0]
+    scale_factor_y = y/image.shape[1]
     resolve_execution_sfxy(image, out_file_path, method, scale_factor_x, scale_factor_y)
 
 

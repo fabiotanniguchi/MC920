@@ -33,3 +33,5 @@ start cmd.exe @cmd /k python t4.py "D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T
 start cmd.exe @cmd /k python t4.py "D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\DSC00114.png" "D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\DSC00114_bilinear.png" 2 0.35
 start cmd.exe @cmd /k python t4.py "D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\DSC00114.png" "D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\DSC00114_bicubic.png" 3 0.35
 start cmd.exe @cmd /k python t4.py "D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\DSC00114.png" "D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\DSC00114_lagrange.png" 4 0.35
+
+start cmd.exe @cmd /k python t4.py "D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\DSC00114.png" "D:\Google Drive\UNICAMP\2018_1\MC920_Helio\T4\DSC00114_nearest.png" 1 1024 1024
